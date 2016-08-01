@@ -1,0 +1,249 @@
+/*
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+ 2.0.1) Global Headings
+ 2.0.2) Sprite Icons
+ 3.) Clear Floated Elements
+ 4.) Site Wide Content
+ 
+ 
+
+ ===============================================*/
+
+/*
+ 1.) Eric Meyer's Reset
+ ----------------------------------------*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/*
+ 2.) Global Typography
+ ----------------------------------------*/
+*, :before, :after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	color: #404040;
+	line-height: 1;
+	font-size: 62.5%;	
+	position: relative;
+	background: #ffffff;
+	/*background: url(../images/body.jpg) no-repeat center 0;*/
+}
+/*
+ 2.0.1) Global Headings
+ -----------------------------*/
+.r-sp h6 {
+	font-size: 2em;
+	color: #cc0000;
+	margin-bottom: 0.6em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;	
+	line-height: 1em;
+}
+.r-sp a {
+	text-decoration: none;
+}
+.r-sp p {
+	font-size: 1em;
+	line-height: 1.5;
+	color: #000000;
+	margin-bottom: 1.3em;	
+}
+/*2.0.2) Sprite Icons
+ -------------------------*/
+[class^="icon-"], [class*="icon-"] {
+	background-image: url(../images/sprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 50px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 50px;
+	background-size: 100px auto;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s time;
+	-ms-transition: all 0.5s time;
+	-o-transition: all 0.5s time;
+	transition: all 0.5s;
+}
+.icon-spring {
+    background-position: 0 0;
+}
+.icon-summer {	
+    background-position: 0 -50px;
+}
+.icon-fall {	
+    background-position: 0 -100px;
+}
+.icon-snow {	
+    background-position: 0 -150px;
+}
+.icon-fb,
+.icon-twet,
+.icon-pin,
+.icon-gp,
+.icon-in,
+.icon-prt {
+	background-position: -12px -460px;
+    background-size: 200px auto;
+    height: 62px;
+    width: 72px;
+}
+.icon-twet {
+	background-position: -115px -460px;
+}
+.icon-pin {
+	 background-position: -12px -640px;
+}
+.icon-gp {
+	background-position: -115px -800px;
+}
+.icon-in {
+	background-position: -15px -800px;
+}
+.icon-prt {
+	background-position: -115px -640px;
+}
+.icon-fb:hover {
+	background-position: -12px -549px;
+}
+.icon-twet:hover {
+	background-position: -115px -549px;
+}
+.icon-pin:hover {
+	 background-position: -12px -720px;
+}
+.icon-gp:hover {
+	background-position: -115px -885px;
+}
+.icon-in:hover {
+	background-position: -15px -885px;
+}
+.icon-prt:hover {
+	background-position: -115px -720px;
+}
+/* 3.) Clear Floated Elements
+ ----------------------------------------------------------------------------------------------------*/
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*
+ 4.) Site Wide Content
+ ------------------------------*/
+.r-sp .container {
+	max-width: 960px;
+	width: 100% !important;
+	margin: 0 auto;
+}
+.border-b{
+	border-bottom: 1px solid #e5e5e5;
+}
+.border-b-sm{
+	border-bottom: 1px solid #e5e5e5;
+}
+.dtl-head, .pro-hd {
+	font-size: 1em;
+	color: #000000;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 0.8em;
+	line-height: 1.2;
+}
+.global-btn {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e51837+0,de1027+36,d00407+86,cd0104+100 */
+background: #e51837; /* Old browsers */
+background: -moz-linear-gradient(top,  #e51837 0%, #de1027 36%, #d00407 86%, #cd0104 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e51837 0%,#de1027 36%,#d00407 86%,#cd0104 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e51837 0%,#de1027 36%,#d00407 86%,#cd0104 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e51837', endColorstr='#cd0104',GradientType=0 ); /* IE6-9 */
+display: block;
+padding: 1em 0;
+width: 302px;
+text-align: center;
+color: #ffffff;
+font-weight: bold;
+font-size: 0.9em;
+border-radius: 5px;
+box-shadow: 4px 4px 2px #cecece;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-ms-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+}
+.global-btn:hover{
+	opacity: 0.7;
+}
+.rel-head {
+	font-size: 1.12em;
+	color: #cc0000;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 1.875em;
+}
+.sm-btn {
+	width: 134px;
+}
+.hidden-sm {
+	display: none;
+}

@@ -1,0 +1,580 @@
+/**************************************************
+
+  --------------------
+  Dynosite styles for Troy-Bilt
+  --------------------
+
+**************************************************/
+.model-detail {
+  width: 920px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+.model-detail nav {
+  height: auto;
+}
+.shared .model-name {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #404040;
+  font-size: 30px;
+  line-height: 1;
+}
+h1.model-name em {
+  color: #999999;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 26px;
+  font-style: normal;
+}
+.vertical-tabs {
+  background: #787878; 
+  background: -moz-linear-gradient(top,  rgba(120,120,120,1) 0%, rgba(68,68,68,1) 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(120,120,120,1)), color-stop(100%,rgba(68,68,68,1))); 
+  background: -webkit-linear-gradient(top,  rgba(120,120,120,1) 0%,rgba(68,68,68,1) 100%); 
+  background: -o-linear-gradient(top,  rgba(120,120,120,1) 0%,rgba(68,68,68,1) 100%); 
+  background: -ms-linear-gradient(top,  rgba(120,120,120,1) 0%,rgba(68,68,68,1) 100%); 
+  background: linear-gradient(to bottom,  rgba(120,120,120,1) 0%,rgba(68,68,68,1) 100%); 
+  width: 220px;
+  border-radius: 4px;
+  padding: 15px 0;
+  margin-bottom: 140px;
+}
+.vertical-tabs ul,
+.vertical-tabs li {
+  padding: 0;
+  margin: 0;
+  background: none;
+  position: relative;
+}
+.vertical-tabs ul {
+  border-top: 1px solid #444444;
+  border-bottom: 1px solid #888888;
+}
+.vertical-tabs li a {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 11px 18px;
+  border-bottom: 1px solid #444444;
+  border-top: 1px solid #888888;
+  transition: .3s background ease;
+}
+.vertical-tabs li a:hover {
+  background: #888888;
+}
+.vertical-tabs li.active:after {
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #CC092F;
+  border-top: 8px solid transparent;
+  position: absolute;
+  top: 11px;
+  right: -8px;
+}
+.vertical-tabs li.active a,
+.vertical-tabs li.active a:hover {
+  background: #c22820;
+  background: rgb(194,40,32);
+  background: -moz-linear-gradient(top, #CC092F 50%, #9A0723 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #CC092F), color-stop(100%, #9A0723));
+  background: -webkit-linear-gradient(top, #CC092F 50%, #9A0723 100%);
+  background: -o-linear-gradient(top, #CC092F 50%, #9A0723 100%);
+  background: -ms-linear-gradient(top, #CC092F 50%, #9A0723 100%);
+  background: linear-gradient(to bottom, #CC092F 50%, #9A0723 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CC092F', endColorstr='#9f1418',GradientType=0 );
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #444444;
+
+}
+.vertical-tab-content {
+  width: 675px;
+  padding: 0 0 25px 25px;
+  /* CHANGED Added */
+  height: 420px;
+  overflow: auto;
+}
+.tab-content {
+  display: none;
+  height: auto;
+}
+.tab-content.open {
+  display: block;
+}
+.model-detail .product-image-viewer {
+  width: 260px;
+  padding-top: 15px;
+}
+.model-detail .product-image-viewer .main-image {
+  width: 228px;
+  min-height: 228px;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+}
+.model-detail .main-image a {
+  display: block;
+}
+.model-detail .main-image.hide {
+  display: block;
+  opacity: 0;
+}
+.model-detail .main-image.show {
+  opacity: 1;
+  -webkit-animation: fade 400ms;
+     -moz-animation: fade 400ms;
+       -o-animation: fade 400ms;
+          animation: fade 400ms;
+}
+.model-detail .tmb-nav {
+  padding-top: 15px;
+}
+.model-detail .tmb-nav a {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  margin-right: 10px;
+}
+/*CHANGED Removed this*/
+.model-detail .tmb-nav a.active {
+  /*border: 1px solid #e2e2e2;
+  border-radius: 2px;*/
+}
+.vertical-tab-content .features {
+  width: 410px;
+  padding-top: 15px;
+}
+/* CHANGED added */
+.vertical-tab-content .tab-content.open {
+	display: inline;
+}
+.vertical-tab-content h2 {
+  color: #404040;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0 0 15px 0;
+  font-weight: normal;
+}
+.vertical-tab-content .features ul {
+  padding: 0 0 0 18px;
+  margin: 0 0 12px 0;
+}
+.vertical-tab-content .features li {
+  color: #404040;
+  list-style: outside disc;
+  font-size: 16px;
+  padding: 0;
+  margin-bottom: 6px;
+  background: none;
+  line-height: 1.3;
+}
+.features .btn.btn-small {
+  width: 145px;
+  margin-right: 15px;
+}
+.vertical-tab-content h1 {
+  font-size: 20px;
+  color: #404040;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.vertical-tab-content table {
+  font-size: 14px;
+  width: 100%;
+}
+.vertical-tab-content table th,
+.vertical-tab-content table td {
+   padding-bottom: 8px;
+   padding-top: 8px;
+}
+.vertical-tab-content table thead th {
+  font-weight: bold;
+  color: #404040;
+  background: #dcdcdc;
+  border-bottom: 1px solid #fff;
+  text-align: left;
+}
+.vertical-tab-content table .image {
+  width: 77px;
+  padding-left: 8px;
+}
+.vertical-tab-content table tbody {
+  color: #555555;
+}
+.vertical-tab-content table tbody th {
+  background: #f1f1f1;
+  font-weight: normal;
+  text-align: left;
+}
+.vertical-tab-content table tbody a {
+  color: #e0102a;
+  text-decoration: underline;
+}
+.vertical-tab-content table tbody a:hover {
+  text-decoration: none;
+}
+.maintenance-schedule h3,
+.maintenance-schedule ul {
+  max-width: 460px;
+}
+.maintenance-schedule h3 {
+  margin: -3px 0 12px 0;
+  font-size: 14px;
+  color: #404040;
+  text-transform: none;
+}
+.maintenance-schedule ol {
+  font-size: 14px;
+  margin: 0 0 24px 0;
+  padding: 0;
+  counter-reset: custom-counter;
+  /*CHANGED Added*/
+  list-style: inside none;
+}
+.maintenance-schedule ol li {
+  padding: 0 0 0 8px;
+  position: relative;
+  margin-bottom: 6px;
+}
+.maintenance-schedule ol li:before {
+  content: counter(custom-counter) ". ";
+  counter-increment: custom-counter;
+}
+.diagnose-troubleshoot h3 {
+  font-size: 14px;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #404040;
+  font-weight: normal;
+}
+.diagnose-troubleshoot ul {
+  padding: 0 0 0 21px;
+  margin-top: 0;
+}
+.diagnose-troubleshoot ul li {
+  font-size: 14px;
+  color: #404040;
+  background: none;
+  display: list-item;
+  padding: 0;
+  list-style: outside disc;
+  margin-bottom: 12px;
+}
+.diagnose-troubleshoot ul li a {
+  text-decoration: none;
+}
+#diagnose-troubleshoot-modal {
+  width: 860px;
+}
+#diagnose-troubleshoot-modal .reveal-content {
+  text-align: left;
+  overflow: auto;
+  max-height: 400px;
+}
+#diagnose-troubleshoot-modal .reveal-content .symptom {
+  width: 21%;
+  padding-left: 4%;
+}
+#diagnose-troubleshoot-modal .reveal-content .symptom h2 {
+  font-size: 14px;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+#diagnose-troubleshoot-modal .reveal-content .causes-actions h2 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  font-weight: normal;
+  margin-top: 0;
+  color: #999;
+}
+#diagnose-troubleshoot-modal .reveal-content .causes-actions h2 strong {
+  display: block;
+  color: #404040;
+}
+#diagnose-troubleshoot-modal .reveal-content ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+#diagnose-troubleshoot-modal .reveal-content a {
+  font-size: 14px;
+  text-decoration: none;
+}
+#diagnose-troubleshoot-modal .reveal-content a.active {
+  color: #404040;
+}
+#diagnose-troubleshoot-modal .reveal-content a.active:hover {
+  text-decoration: none;
+}
+#diagnose-troubleshoot-modal .reveal-content .causes-actions {
+  width: 73%;
+  padding-right: 2%;
+}
+#diagnose-troubleshoot-modal .reveal-content dt {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+#diagnose-troubleshoot-modal .reveal-content dd {
+  font-size: 14px;
+  margin: 0 0 16px;
+}
+#diagnose-troubleshoot-modal.reveal-modal .close-btn {
+  top: 32px;
+  right: 16px;
+}
+#diagnose-troubleshoot-modal .common-symptoms {
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+.how-tos ul,
+.how-tos ul li {
+  background: none;
+  padding: 0;
+  margin: 0;
+  width: 685px;
+  height: 273px;
+}
+.tab-content-container .tab-content .how-tos ul,
+.tab-content-container .tab-content .how-tos ul li {
+  list-style: none;
+  padding: 0;
+  width: 830px;
+  height: 340px;
+}
+.orbit-container .orbit-slides-container > * {
+  margin-left: 100%;
+}
+.orbit-container .orbit-slides-container > li:first-child {
+  margin-left: 0;
+}
+.how-tos .row.group {
+  border-bottom: 1px solid #f1f1f1;
+}
+.how-tos li a {
+  color: #404040;
+  text-decoration: none;
+  display: block;
+  width: 158px;
+  padding: 12px 18px 12px 52px;
+  font-size: 13px; /*CHANGED 14px to 13px*/
+  line-height: 1.4;
+}
+.how-tos li a:hover {
+  text-decoration: underline;
+}
+.tab-content-container .tab-content .how-tos li a {
+  width: 205px;
+}
+.how-tos {
+  position: relative;
+}
+.how-tos a.article {
+  background: url(/wcpics/TroyBiltUS/en_US/images/article-icon2.png) left 13px no-repeat;
+  background-size: 40px 40px;
+}
+.how-tos a.video {
+  background: url(/wcpics/TroyBiltUS/en_US/images/video-icon2.png) left 13px no-repeat;
+  background-size: 40px 40px;
+}
+.how-tos ol.orbit-bullets {
+  text-align: center;
+  margin: 0;
+  padding: 16px 0;
+  position: relative;
+  list-style: none;
+}
+.how-tos ol.orbit-bullets li {
+  display: inline-block;
+  list-style: none;
+  background: #404040;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin: 0 6px;
+  padding: 0;
+  cursor: pointer;
+}
+.tab-content-container .tab-content .how-tos .orbit-bullets li.active {
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+}
+.how-tos .orbit-bullets li.active {
+  background: #fff;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 1px solid #404040;
+  position: relative;
+  top: 2px;
+}
+.how-tos a.orbit-next,
+.how-tos a.orbit-prev {
+  display: block;
+  bottom: -12px;
+  width: 16px;
+  height: 18px;
+  position: relative;
+  text-indent: -500000px;
+}
+.how-tos a.orbit-next:before,
+.how-tos a.orbit-prev:before {
+  position: absolute;
+  border-top: 10px solid transparent;
+  z-index: 1;
+  top: 0;
+  display: block;
+  content: " ";
+  border-bottom: 10px solid transparent;
+}
+.how-tos a.orbit-next:after,
+.how-tos a.orbit-prev:after {
+  position: absolute;
+  top: 5px;
+  display: block;
+  content: " ";
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  z-index: 2;
+}
+.how-tos a.orbit-next {
+  float: right;
+}
+.how-tos a.orbit-next:before {
+  left: 0;
+  border-left: 10px solid #ececec;
+}
+.how-tos a.orbit-next:after {
+  left: -1px;
+  border-left: 5px solid #fff;
+}
+.how-tos a.orbit-prev {
+  float: left;
+}
+.how-tos a.orbit-prev:before {
+  right: 0;
+  border-right: 10px solid #ececec;
+}
+.how-tos a.orbit-prev:after {
+  right: -1px;
+  border-right: 5px solid #fff;
+}
+.how-tos .orbit-slide-number,
+.how-tos .orbit-timer {
+  display: none;
+}
+
+.shared .orbit-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: none; 
+}
+.shared .orbit-container .orbit-slides-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative; 
+}
+.shared .orbit-container .orbit-slides-container img {
+  display: block;
+  max-width: 100%; 
+}
+.shared .orbit-container .orbit-slides-container > * {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-left: 100%; 
+}
+.shared .orbit-container .orbit-slides-container > *:first-child {
+  margin-left: 0%; 
+}
+.shared .orbit-container .orbit-slides-container > * .orbit-caption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(51, 51, 51, 0.8);
+  color: white;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 0.875rem; 
+}
+.shared .orbit-container .orbit-slide-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  z-index: 10; 
+}
+.shared .orbit-container .orbit-slide-number span {
+  font-weight: 700;
+  padding: 0.3125rem; 
+}
+.shared .orbit-container .orbit-timer {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  height: 6px;
+  width: 100px;
+  z-index: 10; 
+}
+.shared .orbit-container .orbit-timer .orbit-progress {
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: block;
+  width: 0%;
+  position: relative;
+  right: 20px;
+  top: 5px; 
+}
+.shared .orbit-container .orbit-timer > span {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 11px;
+  height: 14px;
+  border: solid 4px white;
+  border-top: none;
+  border-bottom: none; 
+}
+.shared .orbit-container .orbit-timer.paused > span {
+  right: -4px;
+  top: 0px;
+  width: 11px;
+  height: 14px;
+  border: inset 8px;
+  border-right-style: solid;
+  border-color: transparent transparent transparent white; 
+}
+.shared .orbit-container .orbit-timer.paused > span.dark {
+  border-color: transparent transparent transparent #333333; 
+}
+.shared .orbit-container:hover .orbit-timer > span {
+  display: block; 
+}
+
+.shared .orbit-bullets-container {
+  text-align: center; 
+}
+
+.touch .orbit-container .orbit-prev,
+.touch .orbit-container .orbit-next {
+  display: none; 
+}
+.touch .orbit-bullets {
+  display: none; 
+}
+
+.model-detail-related.search-results .tabs > ul {
+  position: relative;
+  left: 245px;
+  border-left: 1px solid #888;
+}

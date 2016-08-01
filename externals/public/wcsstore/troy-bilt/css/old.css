@@ -1,0 +1,1990 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block
+}
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline
+}
+audio:not([controls]) {
+	display: none;
+	height: 0
+}
+[hidden], template {
+	display: none
+}
+a {
+	background-color: transparent
+}
+a:active, a:hover {
+	outline: 0
+}
+abbr[title] {
+	border-bottom: 1px dotted
+}
+b, strong {
+	font-weight: 700
+}
+dfn {
+	font-style: italic
+}
+h1 {
+	font-size: 2em;
+	margin: .67em 0
+}
+mark {
+	background: #ff0;
+	color: #000
+}
+small {
+	font-size: 80%
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+sup {
+	top: -.5em
+}
+sub {
+	bottom: -.25em
+}
+img {
+	border: 0
+}
+svg:not(:root) {
+	overflow: hidden
+}
+figure {
+	margin: 1em 40px
+}
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0
+}
+pre {
+	overflow: auto
+}
+code, kbd, pre, samp {
+	font-family: monospace, monospace;
+	font-size: 1em
+}
+button, input, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0
+}
+button {
+	overflow: visible
+}
+button, select {
+	text-transform: none
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+	-webkit-appearance: button;
+	cursor: pointer
+}
+button[disabled], html input[disabled] {
+	cursor: default
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+input {
+	line-height: normal
+}
+input[type=checkbox], input[type=radio] {
+	box-sizing: border-box;
+	padding: 0
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	height: auto
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box
+}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+fieldset {
+	border: 1px solid silver;
+	margin: 0 2px;
+	padding: .35em .625em .75em
+}
+legend {
+	border: 0;
+	padding: 0
+}
+textarea {
+	overflow: auto
+}
+optgroup {
+	font-weight: 700
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+td, th {
+	padding: 0
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #e5e5e5;
+	overflow-x: hidden
+}@-webkit-keyframes fade{
+from {
+	opacity: 0
+}
+to {
+	opacity: 1
+}}@-moz-keyframes
+fade {from{
+	opacity: 0
+}
+to {
+	opacity: 1
+}}@-o-keyframes
+fade {from{
+	opacity: 0
+}
+to {
+	opacity: 1
+}}@keyframes
+fade {from{
+	opacity: 0
+}
+to {
+	opacity: 1
+}}
+.hide:not(.show) {
+	display: none
+}
+.r-gf .iconic, .r-gf .img-wrap img, .r-gh .iconic, .r-gh .img-wrap img, .r-gm .iconic, .r-gm .img-wrap img.lazyload, .r-gm .img-wrap img.lazyloading {
+	opacity: 0
+}
+.r-gf .iconic.injected-svg, .r-gf .img-wrap img.lazyloaded, .r-gh .iconic.injected-svg, .r-gh .img-wrap img.lazyloaded, .r-gm .iconic.injected-svg, .r-gm .img-wrap img.lazyloaded {
+	opacity: 1;
+	-webkit-animation: fade 200ms;
+	-moz-animation: fade 200ms;
+	-o-animation: fade 200ms;
+	animation: fade 200ms
+}
+.r-gcontainer, .r-gf, .r-gh {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+.r-gcontainer *, .r-gcontainer :after, .r-gcontainer :before, .r-gf *, .r-gf :after, .r-gf :before, .r-gh *, .r-gh :after, .r-gh :before, .r-gh input {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.r-gcontainer {
+	overflow-x: hidden;
+	position: relative;
+	width: 100%
+}
+.r-gcanvas {
+	position: relative;
+	right: 0;
+	transition: right 200ms ease-in-out;
+	-ms-transition: right 200ms ease-in-out;
+	-moz-transition: right 200ms ease-in-out;
+	-webkit-transition: right 200ms ease-in-out
+}
+.menu-open .r-gcanvas {
+	right: 80%
+}
+.r-gh {
+	min-height: 60px;
+	height: auto;
+	background: #C00
+}
+.r-gh.promo-banner {
+	background: #000;
+	border-bottom: 1px solid #F11;
+	min-height: 44px;
+	padding: 14px 30px 13px 8px;
+	position: relative;
+	overflow: hidden
+}
+.r-gh.promo-banner h2 {
+	color: #E5E5E5;
+	margin: 0;
+	font-size: .875rem;
+	text-align: center
+}
+.r-gh.promo-banner a {
+	color: #e51837;
+	text-decoration: none
+}
+.r-gh.promo-banner a:active, .r-gh.promo-banner a:hover {
+	color: #c00;
+	text-decoration: none
+}
+.r-gh.promo-banner .close-banner {
+	overflow: hidden;
+	position: absolute;
+	height: 24px;
+	width: 28px;
+	padding: 0;
+	border: 0;
+	top: 10px;
+	right: 6px;
+	background: 0 0;
+	outline: 0
+}
+.r-gh.promo-banner .clear-x {
+	width: 16px;
+	height: 16px
+}
+.r-gh.promo-banner .clear-x g {
+	stroke: #7a7a7a;
+	stroke-width: 2
+}
+.r-gh .thin-caret {
+	width: 7px;
+	height: 11px
+}
+.r-gh.promo-banner .thin-caret {
+	margin-left: 4px
+}
+.r-gh.promo-banner .thin-caret g {
+	stroke: #e51837
+}
+.r-gh .brand {
+	display: block;
+	width: 140px;
+	height: 60px;
+	background: url(/wcpics/Troy/en_US/logo-troybilt.png) no-repeat center center;
+	background-size: 140px 29px;
+	margin-left: 4px;
+	text-indent: -9999px
+}
+.canada .r-gh .brand {
+	width: 178px;
+	background-image: url(/wcpics/Troy/en_US/logo-troybilt-m.png);
+	background-size: 178px 36px;
+	margin-left: 8px
+}
+.r-gh .btn-header {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	width: 50px;
+	height: 60px;
+	outline: 0;
+	border: 0;
+	background: 0 0;
+	text-indent: -9999px;
+	padding: 0
+}
+.r-gh .btn-cart, .r-gh .btn-search, .r-gh .burger span {
+	background-image: url(/wcpics/Troy/en_US/header-icons.png);
+	background-repeat: no-repeat;
+	background-size: 24px 230px
+}
+.r-gh .btn-cart {
+	right: 100px;
+	background-position: 14px 20px
+}
+.r-gh .btn-cart.active {
+	background-color: #000
+}
+.r-gh .btn-cart.has-items {
+	text-indent: 0;
+	color: #fff;
+	background-position: 9px 20px
+}
+.r-gh .btn-cart.has-items span {
+	font-size: .875rem;
+	font-weight: 700;
+	margin-left: 27px
+}
+.r-gh .btn-search {
+	background-position: 14px -32px
+}
+.r-gh .btn-search.active {
+	background-color: #000
+}
+.r-gh .btn-menu {
+	background-color: #c00;
+	right: 0;
+	overflow: hidden
+}
+.r-gh .btn-header.open {
+	background-color: #000
+}
+.r-gh .burger {
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: relative;
+	margin: 4px auto 0
+}
+.r-gh .burger span {
+	display: block;
+	width: 24px;
+	height: 3px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-position: 0 -100px;
+	transform-origin: top right;
+	-webkit-transform-origin: top right
+}
+.r-gh .burger .burger-m {
+	top: 8px
+}
+.r-gh .burger .burger-b {
+	top: 16px;
+	transform-origin: bottom right;
+	-webkit-transform-origin: bottom right
+}
+.r-gh .btn-menu.open .burger span {
+	right: 4px
+}
+.r-gh .global-nav.hide {
+	display: none
+}
+.r-gh .global-nav {
+	position: absolute;
+	width: 80%;
+	top: 0;
+	right: -80%;
+	height: 100%;
+	overflow: hidden;
+	background: #e5e5e5;
+	padding-top: 14px;
+	z-index: 2;
+	transition: right 200ms ease-in-out;
+	-ms-transition: right 200ms ease-in-out;
+	-moz-transition: right 200ms ease-in-out;
+	-webkit-transition: right 200ms ease-in-out
+}
+.r-gh .global-nav:after {
+	transition: right 200ms ease-in-out;
+	-ms-transition: right 200ms ease-in-out;
+	-moz-transition: right 200ms ease-in-out;
+	-webkit-transition: right 200ms ease-in-out;
+	content: "";
+	position: absolute;
+	right: -100%;
+	width: 100%;
+	height: 200%;
+	bottom: 0;
+	top: -25%;
+	pointer-events: none
+}
+.menu-open .r-gh .global-nav:after {
+	right: 0;
+	moz-box-shadow: inset 4px 0 8px -webkit-box-shadow :inset 4px 0 8px rgba(50,50,50,.25);
+	box-shadow: inset 4px 0 8px rgba(50,50,50,.25);
+	z-index: 2
+}
+.r-gh .global-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+.r-gh .global-nav li {
+	margin: 0;
+	list-style: none;
+	display: block;
+	overflow: hidden
+}
+.r-gh .primary-nav {
+	margin-bottom: 55px
+}
+.r-gh .primary-nav li .sub-menu {
+	display: none;
+	padding: 0 17px;
+	background: #fff;
+	border-bottom: 1px solid #95959a;
+	opacity: 0
+}
+.r-gh .primary-nav .primary {
+	display: block;
+	font-size: 1.125 rem;
+	line-height: 1.5 rem;
+	text-transform: uppercase;
+	color: #7a7a7a;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 12px 45px 10px 17px;
+	border-bottom: 1px solid #95959a;
+	position: relative;
+	-webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+.r-gh .primary-nav .primary:after {
+	content: "+";
+	position: absolute;
+	top: 4px;
+	font-size: 2.125 rem;
+	font-weight: 400;
+	right: 15px;
+	line-height: 1
+}
+.canada.fr .r-gh .primary-nav .primary {
+	font-size: 1rem;
+	padding-right: 22px
+}
+.r-gh .primary-nav > ul > li.expanded > a {
+	color: #000
+}
+.r-gh .primary-nav > ul > li.expanded > a:after {
+	content: "–"
+}
+.r-gh .primary-nav li li a {
+	display: block;
+	color: #000;
+	font-size: 1rem;
+	line-height: 1.125 rem;
+	padding: 12px;
+	text-decoration: none;
+	border-bottom: 1px solid #95959a
+}
+.r-gh .primary-nav li li a:active, .r-gh .primary-nav li li a:hover {
+	color: #c00
+}
+.r-gh .primary-nav li li:last-child a {
+	border-bottom: 0
+}
+.r-gh .secondary-nav {
+	padding: 0 17px
+}
+.r-gh .secondary-nav .caret {
+	display: inline-block;
+	margin-left: 8px;
+	position: relative;
+	top: -1px;
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	transition: transform 200ms ease-in-out, -ms-transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+	-ms-transition: transform 200ms ease-in-out, -ms-transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+	-moz-transition: transform 200ms ease-in-out, -ms-transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+	-webkit-transition: transform 200ms ease-in-out, -ms-transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out
+}
+.r-gh .secondary-nav .expanded .caret {
+	-ms-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg)
+}
+.r-gh .secondary-nav .iconic-caret {
+	width: 12px;
+	height: 8px
+}
+.r-gh .secondary-nav a {
+	font-size: 1rem;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	margin: 0 0 17px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+.r-gh .secondary-nav a:active, .r-gh .secondary-nav a:hover {
+	color: #c00
+}
+.r-gh .secondary-nav li ul {
+	padding: 0 10px 10px;
+	display: none;
+	opacity: 0
+}
+.r-gh .secondary-nav li li a {
+	font-size: .875rem
+}
+.r-gh .flag-en {
+	background: url(/wcpics/TroyBiltCA/en_US/canada-flag-en.png) no-repeat 0 0;
+	padding-left: 24px
+}
+.r-gh .flag-fr {
+	background: url(/wcpics/TroyBiltCA/en_US/canada-flag-fr.png) no-repeat 0 0;
+	padding-left: 24px
+}
+.r-gh .sub-menu .col {
+	margin-bottom: 24px
+}
+.r-gh .sub-menu h3 {
+	padding: 16px 12px 0 0;
+	font-weight: 700;
+	margin: 0 0 16px;
+	font-size: 1rem
+}
+.r-gh .sub-menu h3+ ul {
+	margin-top: -7px
+}
+.r-gh .sub-menu ul:not(:last-child) {
+	margin-bottom: 16px;
+	border-bottom: 1px solid #95959a
+}
+.r-gh .button, .r-gm .button {
+	border-radius: 4px;
+	font-size: .75rem;
+	font-weight: 700;
+	display: inline-block;
+	padding: 8px 14px;
+	background: #e5e5e5;
+	color: #000;
+	text-decoration: none;
+	margin-bottom: 7px;
+	border: 0
+}
+.r-gh .button.large, .r-gm .button.large {
+	font-size: .8125rem;
+	padding: 10px 33px
+}
+.r-gm .button.large {
+	font-size: .875rem
+}
+.r-gh .button.red, .r-gm .button.red {
+	background: #c00;
+	background: -moz-linear-gradient(top,#e51837 63%,#c00 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(63%,#c00),color-stop(100%,#c00));
+	background: -webkit-linear-gradient(top,#e51837 63%,#c00 100%);
+	background: -ms-linear-gradient(top,#e51837 63%,#c00 100%);
+	background: linear-gradient(top,#e51837 63%,#c00 100%);
+	color: #fff
+}
+.r-gm .button.red {
+	box-shadow: rgba(0,0,0,.2) 2px 2px 2px
+}
+.r-gh .button.red:active, .r-gh .button.red:hover, .r-gm .button.red:active, .r-gm .button.red:hover {
+	background: #E51837;
+	background: -moz-linear-gradient(top,#c00 63%,#e51837 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(63%,#c00),color-stop(100%,#e51837));
+	background: -webkit-linear-gradient(top,#c00 63%,#e51837 100%);
+	background: -ms-linear-gradient(top,#c00 63%,#e51837 100%);
+	background: linear-gradient(top,#c00 63%,#e51837 100%)
+}
+.r-gh .sub-menu .button.grey, .r-gh .sub-menu img, .r-gh .sub-menu ul ul {
+	display: none
+}
+.r-gh .sub-menu p {
+	font-size: .8125rem;
+	line-height: 17px;
+	margin: 0 0 8px
+}
+.r-gh .sub-menu form:not(:last-child) {
+	margin-bottom: 16px
+}
+.r-gh .sub-menu input[type=email], .r-gh .sub-menu input[type=text] {
+	width: 100%;
+	display: block;
+	border-radius: 6px;
+	border: 1px solid #e5e5e5;
+	font-size: 13px;
+	color: #000;
+	padding: 8px 14px;
+	margin: 0 0 8px;
+	max-width: 215px
+}
+.r-gh .sub-menu .help-link {
+	color: #7a7a7a;
+	font-size: .8125rem;
+	line-height: 17px;
+	text-decoration: underline;
+	display: block
+}
+.r-gh .sub-menu .help-link:hover {
+	text-decoration: none
+}
+.r-gh .minicart.hide {
+	display: none
+}
+.r-gh .minicart.hide * {
+	opacity: 0
+}
+.r-gh .btn-close-cart {
+	display: none
+}
+.r-gh .minicart {
+	position: relative;
+	width: 100%;
+	z-index: 500;
+	background: #000;
+	padding: 20px 0
+}
+.r-gh .minicart * {
+	opacity: 0
+}
+.r-gh .minicart h2 {
+	color: #e5e5e5;
+	text-transform: uppercase;
+	font-size: .75rem;
+	font-weight: 400;
+	margin: 0;
+	border-bottom: 1px solid #7A7A7A;
+	padding-bottom: 10px;
+	margin-left: 15px;
+	margin-right: 15px
+}
+.r-gh .minicart h2 .item-count {
+	float: right
+}
+.r-gh .cart-item {
+	display: block;
+	border-bottom: 1px solid #444;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	clear: both;
+	overflow: hidden;
+	text-decoration: none;
+	margin-left: 15px;
+	margin-right: 15px;
+	position: relative;
+	transition: background-color 200ms ease;
+	background-color: #000
+}
+.r-gh .cart-item:active, .r-gh .cart-item:hover {
+	background-color: #444;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 0;
+	padding-bottom: 16px
+}
+.r-gh .cart-item:active:after, .r-gh .cart-item:hover:after {
+	display: block;
+	content: " ";
+	height: 1px;
+	background: #444;
+	position: absolute;
+	left: 15px;
+	width: calc(100% - 30px);
+	bottom: 0
+}
+.r-gh .cart-item .pic {
+	float: left;
+	width: 77px;
+	height: 77px;
+	display: block;
+	margin-right: 15px
+}
+.r-gh .cart-item img {
+	width: 100%;
+	height: auto
+}
+.r-gh .cart-item .product-info {
+	display: block;
+	overflow: hidden
+}
+.r-gh .cart-item .title {
+	display: block;
+	color: #fff;
+	font-size: 1rem;
+	margin-bottom: 5px
+}
+.r-gh .hide-overflow .minicart-links {
+	height: 315px;
+	overflow: auto
+}
+.r-gh .cart-item .desc {
+	font-size: .875rem;
+	line-height: 1rem;
+	color: #7A7A7A;
+	display: block;
+	height: 40px;
+	overflow: hidden
+}
+.r-gh .cart-item .price, .r-gh .cart-item .quantity {
+	color: #CCC;
+	display: inline-block;
+	font-size: .875rem;
+	line-height: 1rem
+}
+.r-gh .cart-item .price span, .r-gh .cart-item .quantity span {
+	color: #7A7A7A
+}
+.r-gh .cart-item .quantity {
+	margin-right: 24px
+}
+.r-gh .cart-empty, .r-gh .minicart-action {
+	text-align: center;
+	margin: 0;
+	padding: 15px 0 0
+}
+.r-gh .cart-empty {
+	padding: 18px 0;
+	color: #fff;
+	font-size: 1.125 rem;
+	line-height: 1.125 rem;
+	margin-top: 1rem
+}
+.r-gh .minicart-action .button.large {
+	font-size: .8725rem;
+	padding: 10px 36px;
+	border-radius: 2px
+}
+.r-gh .header-search {
+	background: #000;
+	overflow: hidden;
+	position: relative
+}
+.r-gh .header-search form {
+	margin: 0;
+	padding: 12px 0 0;
+	opacity: 0
+}
+.r-gh .header-search .search-field {
+	padding: 0 16px;
+	margin-bottom: 12px
+}
+.r-gh .header-search input[type=search] {
+	display: block;
+	border: 0;
+	width: 100%;
+	padding: 8px;
+	border-radius: 3px;
+	-webkit-appearance: none;
+	height: 32px;
+	font-size: .875rem
+}
+.r-gh .header-search input[type=search]::-ms-clear {
+	display: none
+}
+.r-gh .header-search input[type=search]:focus {
+	outline: 0;
+	border: 0
+}
+.r-gh .search-collections {
+	padding: 0 0 16px;
+	margin: 0;
+	list-style: none;
+	display: none;
+	opacity: 0
+}
+.r-gh .search-collections li {
+	display: block;
+	list-style: none;
+	padding: 0 15px;
+	transition: background-color 200ms ease;
+	background-color: #000
+}
+.r-gh .search-collections li:active, .r-gh .search-collections li:hover {
+	background-color: #444;
+	position: relative;
+	top: -1px;
+	border-top: 1px solid #444
+}
+.r-gh .search-collections li:active a, .r-gh .search-collections li:hover a {
+	border-bottom: 0
+}
+.r-gh .search-collections a {
+	display: block;
+	font-size: .875rem;
+	color: #E5E5E5;
+	padding: 15px 10px;
+	border-bottom: 1px solid #444;
+	text-decoration: none;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+.r-gh .search-collections li:first-child a {
+	border-top: 1px solid #444
+}
+.r-gh .search-collections .thin-caret {
+	position: absolute;
+	right: 10px;
+	top: 40%
+}
+.r-gh .header-search .btn-clear {
+	display: none;
+	background: 0 0;
+	position: absolute;
+	height: 32px;
+	width: 28px;
+	border: 0;
+	top: 12px;
+	right: 15px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	outline: 0
+}
+.r-gh .header-search .btn-clear.show {
+	display: block
+}
+.r-gh .header-search .clear-x {
+	width: 11px;
+	height: 11px
+}
+.r-gm {
+	min-height: 420px;
+	background: #fff url(/wcpics/Troy/en_US/logo-troybilt-m-red.png) center 180px no-repeat;
+	background-size: 178px 36px
+}
+.r-gf {
+	right: 0;
+	position: relative;
+	background: #fff;
+	padding-top: 35px;
+	border-top: 1px solid #e5e5e5
+}
+.r-gf h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 32px;
+	color: #c00;
+	text-align: center;
+	margin: 0 0 35px
+}
+.r-gf h1 sup {
+	font-size: 50%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	top: -.75em
+}
+.r-gf .product-categories li, .r-gf .product-categories ul {
+	padding: 0;
+	margin: 0;
+	list-style: none
+}
+.r-gf .product-categories ul {
+	border-top: 1px solid #e5e5e5;
+	margin-bottom: 30px
+}
+.r-gf .product-categories a, .r-gf .product-categories a:visited {
+	display: block;
+	height: 68px;
+	padding: 0;
+	font-size: 1rem;
+	font-weight: 700;
+	position: relative;
+	text-decoration: none;
+	border-bottom: 1px solid #e5e5e5;
+	overflow: hidden;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	color: #000
+}
+.r-gf .product-categories a:active, .r-gf .product-categories a:hover {
+	color: #c00
+}
+.r-gf .product-categories .img-wrap {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+	width: 124px
+}
+.r-gf .product-categories img {
+	max-height: 68px;
+	width: auto
+}
+.r-gf .product-categories h4 {
+	font-size: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 124px;
+	margin: 0;
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+.r-gf .social li, .r-gf .social ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0
+}
+.r-gf .social ul {
+	margin-bottom: 40px
+}
+.r-gf .social li {
+	display: inline
+}
+.r-gf .social a {
+	display: inline-block;
+	height: 42px;
+	background-image: url(/wcpics/Troy/en_US/social-icons.png);
+	background-repeat: no-repeat;
+	background-size: 236px 42px;
+	text-indent: -9999px
+}
+.r-gf .connect-signup h5 {
+	font-size: .8125rem;
+	font-weight: 400;
+	margin: 0 0 10px
+}
+.r-gf .social {
+	text-align: center
+}
+.r-gf .social .facebook {
+	width: 38px;
+	background-position: 0 0
+}
+.r-gf .social .youtube {
+	width: 78px;
+	background-position: -38px 0
+}
+.r-gf .social .twitter {
+	width: 40px;
+	background-position: -116px 0
+}
+.r-gf .social .instagram {
+	width: 40px;
+	background-position: -156px 0
+}
+.r-gf .social .pinterest {
+	width: 40px;
+	background-position: -196px 0
+}
+.r-gf .email-signup {
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 0 10px
+}
+.r-gf .email-signup h5 {
+	margin-bottom: 17px
+}
+.r-gf .email-signup input[type=email] {
+	margin: 0 0 20px;
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	border-radius: 3px;
+	font-size: .8125rem;
+	font-style: italic;
+	color: #7a7a7a;
+	padding: 8px 10px;
+	text-align: center
+}
+.r-gf .invalid-message:not(.hide) {
+	display: block;
+	font-size: .75rem;
+	margin-top: 10px;
+	color: #c00;
+	font-weight: 700;
+	margin-bottom: 10px
+}
+.r-gf .confirmation-message.show {
+	display: block;
+	font-size: .75rem;
+	margin-top: 10px;
+	font-weight: 700;
+	margin-bottom: 10px
+}
+.r-gf .sub-footer {
+	background: #e5e5e5;
+	padding: 20px 20px 110px;
+	text-align: center;
+	moz-box-shadow: 0 -2px 3px rgba(50,50,50,.25);
+	-webkit-box-shadow: 0 -2px 3px rgba(50,50,50,.25);
+	box-shadow: 0 -2px 3px rgba(50,50,50,.25)
+}
+.r-gf .sub-footer li, .r-gf .sub-footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+.r-gf .sub-footer .copyright, .r-gf .sub-footer a {
+	display: block;
+	color: #000;
+	font-size: .8125rem;
+	margin-bottom: 17px;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+.r-gf .sub-footer a:active, .r-gf .sub-footer a:hover, .r-gf .sub-footer a:visited {
+	text-decoration: underline
+}
+.r-gf .sub-footer .copyright {
+	margin-top: 40px
+}
+.r-gf .sub-footer .flag {
+	width: 8px;
+	height: 6px;
+	position: relative;
+	top: -2px;
+	display: inline-block;
+	margin-right: 2px
+}
+.r-gf .button {
+	display: inline-block;
+	font-size: .8125rem;
+	font-weight: 700;
+	color: #000;
+	padding: 10px;
+	background: #e5e5e5;
+	line-height: 1;
+	border: 0;
+	width: 117px
+}
+.r-gf .button.rnd {
+	border-radius: 3px
+}
+@media only screen and (min-width: 21.875em) {
+	.r-gh .brand {
+		width: 178px;
+		background-image: url(/wcpics/Troy/en_US/logo-troybilt-m.png);
+		background-size: 178px 36px
+	}
+	.r-gh .btn-header {
+		width: 55px
+	}
+	.r-gh .btn-cart {
+		right: 110px
+	}
+	.r-gh .btn-search {
+		right: 55px
+	}
+}
+@media only screen and (min-width: 25em) {
+	.r-gh .brand {
+		margin-left: 8px
+	}
+}
+@media only screen and (min-width: 25em) {
+	.menu-open .r-gcanvas {
+		right: 70%
+	}
+	.r-gh .global-nav {
+		width: 70%;
+		right: -70%
+	}
+}
+@media only screen and (min-width: 48em) {
+	.menu-open .r-gcanvas {
+		right: 60%
+	}
+	.r-gh .global-nav {
+		width: 60%;
+		right: -60%
+	}
+	.r-gf {
+		border-top: 0
+	}
+	.r-gf h1 {
+		margin: 0 0 14px
+	}
+	.r-gf .connect-signup, .r-gf .product-categories {
+		max-width: 960px;
+		margin: 0 auto
+	}
+	.r-gf .product-categories {
+		display: block;
+		overflow: hidden;
+		clear: both;
+		margin-bottom: 20px
+	}
+	.r-gf .product-categories ul {
+		padding-top: 20px;
+		clear: both;
+		overflow: hidden
+	}
+	.r-gf .product-categories li {
+		width: 16.666666666%;
+		float: left;
+		text-align: center
+	}
+	.canada .r-gf .product-categories li {
+		width: 20%
+	}
+	.r-gf .product-categories a {
+		border: 0;
+		display: block;
+		height: auto;
+		padding: 0
+	}
+	.r-gf .product-categories .img-wrap {
+		position: static;
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		width: auto
+	}
+	.r-gf .product-categories img {
+		max-height: 200px;
+		max-width: 100%;
+		height: auto
+	}
+	.r-gf .product-categories h4 {
+		font-size: 1rem;
+		position: static;
+		margin: 0;
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+	.r-gf .connect-signup {
+		display: block;
+		overflow: hidden;
+		clear: both;
+		border-top: 1px solid #e5e5e5;
+		padding: 25px 20px 10px
+	}
+	.r-gf .email-signup, .r-gf .social {
+		padding: 0
+	}
+	.r-gf .social {
+		margin-top: -3px
+	}
+	.r-gf .email-signup {
+		margin-bottom: 0
+	}
+	.r-gf .connect-signup h5 {
+		position: relative
+	}
+	.r-gf .email-signup input[type=email] {
+		width: 230px;
+		text-align: left;
+		margin-right: 5px;
+		border-radius: 5px
+	}
+	.r-gf .confirmation-message.show, .r-gf .invalid-message:not(.hide) {
+		margin-top: -10px;
+		text-align: center
+	}
+	.r-gf .button.rnd {
+		border-radius: 5px
+	}
+	.r-gf .sub-footer {
+		padding: 60px 20px 110px
+	}
+	.r-gf .sub-footer li {
+		display: inline
+	}
+	.r-gf .sub-footer a {
+		display: inline-block;
+		font-size: .8125rem;
+		margin-left: 10px
+	}
+	.r-gf .sub-footer a:before {
+		display: inline-block;
+		content: "|";
+		margin-right: 10px
+	}
+	.r-gf .sub-footer li:first-child {
+		display: none
+	}
+	.r-gf .sub-footer li:nth-child(2) a {
+		margin-left: 0
+	}
+	.r-gf .sub-footer li:nth-child(2) a:before {
+		display: none
+	}
+	.r-gf .sub-footer .flag {
+		width: 16px;
+		height: 12px;
+		top: 1px
+	}
+	.r-gf .sub-footer .copyright {
+		margin-top: 0
+	}
+}
+@media only screen and (min-width: 57.75em) {
+	.r-gcontainer {
+		overflow: hidden
+	}
+	.r-gh {
+		min-height: 112px;
+		transition: min-height 200ms ease
+	}
+	.r-gh .btn-menu {
+		display: none
+	}
+	.r-gh .header-top {
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 930px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block
+	}
+	.r-gh .brand {
+		width: 242px;
+		height: 49px;
+		background-image: url(/wcpics/Troy/en_US/logo-troybilt-m.png);
+		background-size: 242px 49px;
+		margin-left: 0;
+		position: relative;
+		top: 13px;
+		float: left
+	}
+	.canada .r-gh .brand {
+		margin-left: 0
+	}
+	.r-gh .global-nav {
+		position: static;
+		padding: 0;
+		height: auto;
+		width: auto;
+		background: 0 0;
+		overflow: visible
+	}
+	.r-gh .global-nav:after {
+		display: none
+	}
+	.r-gh .primary-nav {
+		background: #e5e5e5;
+		margin: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 76px;
+		left: 0;
+		width: 100%;
+		-moz-box-sizing: content-box;
+		-webkit-box-sizing: content-box;
+		box-sizing: content-box;
+		-webkit-box-shadow: 0 2px 4px 0 rgba(50,50,50,.25);
+		-moz-box-shadow: 0 2px 4px 0 rgba(50,50,50,.25);
+		box-shadow: 0 2px 4px 0 rgba(50,50,50,.25);
+		transition: top 200ms ease
+	}
+	.r-gh .primary-nav ul {
+		max-width: 930px;
+		min-height: 28px;
+		margin-right: auto;
+		margin-left: auto
+	}
+	.r-gh .primary-nav > ul > li {
+		float: left;
+		padding: 0;
+		margin-right: 12px;
+		overflow: visible
+	}
+	.canada.fr .r-gh .primary-nav > ul > li {
+		margin-right: 4px
+	}
+	.r-gh .primary-nav > ul > li:last-child {
+		margin-right: 0
+	}
+	.r-gh .primary-nav .primary {
+		padding: 8px 0;
+		border: 0;
+		color: #000;
+		font-size: 1rem;
+		display: block;
+		height: 36px;
+		position: relative;
+		padding-right: 30px
+	}
+	.r-gh .primary-nav .expanded {
+		overflow: visible
+	}
+	.r-gh .primary-nav .primary:hover {
+		color: #c00
+	}
+	.r-gh .primary-nav .primary:after {
+		display: none
+	}
+	.r-gh .primary-nav li.expanded .primary:after {
+		width: 44px;
+		height: 18px;
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: -16px;
+		top: auto;
+		left: 50%;
+		margin-left: -34px;
+		z-index: 501;
+		background: url(/wcpics/Troy/en_US/header-icons.png) 0 -443px no-repeat;
+		background-size: 48px 460px
+	}
+	.r-gh .primary-nav li.expanded .sub-menu {
+		display: block;
+		opacity: 1;
+		border-bottom: 1px solid #e5e5e5
+	}
+	.r-gh .primary-nav li .sub-menu {
+		transition: opacity 200ms ease;
+		position: absolute;
+		left: 0;
+		top: 36px;
+		padding: 0 0 30px;
+		width: 100%;
+		-webkit-box-shadow: inset 0 3px 4px 0 rgba(50,50,50,.25);
+		-moz-box-shadow: inset 0 3px 4px 0 rgba(50,50,50,.25);
+		box-shadow: inset 0 3px 4px 0 rgba(50,50,50,.25);
+		border: 0;
+		z-index: 500
+	}
+	.r-gh .sub-menu-wrap {
+		max-width: 930px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.r-gh .sub-menu-wrap > ul > li {
+		float: left;
+		padding-top: 20px
+	}
+	.r-gh .sub-menu-wrap > .col {
+		padding-top: 20px;
+		float: left
+	}
+	.r-gh .sub-menu img, .r-gh .sub-menu ul ul {
+		display: block
+	}
+	.r-gh .sub-menu .button.grey {
+		display: inline-block
+	}
+	.r-gh .product-category .sub-menu-wrap > ul > li {
+		width: 175px;
+		padding-right: 20px
+	}
+	.r-gh .tips .sub-menu-wrap > .col {
+		width: 233px;
+		padding-top: 50px
+	}
+	.r-gh .support .sub-menu-wrap > .col {
+		width: 25%;
+		max-width: 233px;
+		padding-top: 50px;
+		padding-right: 30px
+	}
+	.r-gh .primary-nav ul, .r-gh .sub-menu ul:not(:last-child) {
+		border: 0;
+		margin-bottom: 4px
+	}
+	.r-gh .primary-nav li li img:first-child {
+		display: block;
+		margin-bottom: 20px
+	}
+	.r-gh .primary-nav .sub-menu-wrap h3, .r-gh .primary-nav li li a {
+		padding: 0;
+		display: block;
+		margin-bottom: 14px
+	}
+	.r-gh .sub-menu h3+ ul {
+		margin-top: 0
+	}
+	.r-gh .primary-nav li .col li a, .r-gh .primary-nav li li li a {
+		font-size: .875rem;
+		line-height: 1.1
+	}
+	.r-gh .button, .r-gh .primary-nav li li a.button {
+		padding: 4px 14px;
+		font-size: .75rem;
+		display: inline-block
+	}
+	.r-gh .button.grey:hover, .r-gh .primary-nav li li a.button.grey:hover {
+		color: #000;
+		background: #d4d4d4
+	}
+	.r-gh .button .iconic {
+		height: 8px;
+		width: 8px;
+		margin-left: 4px;
+		margin-right: 2px
+	}
+	.r-gh .primary-nav .sub-menu-wrap h3, .r-gh .primary-nav .sub-menu-wrap > ul > li > a:not(.button) {
+		font-size: .875rem;
+		font-weight: 700
+	}
+	.r-gh .primary-nav .sub-menu-wrap a {
+		border: 0
+	}
+	.r-gh .cart-search {
+		float: right;
+		position: relative
+	}
+	.r-gh .btn-search {
+		width: 24px;
+		height: 24px;
+		right: -4px;
+		left: auto;
+		top: 25px;
+		position: relative;
+		background-position: 0 -51px;
+		margin-left: 20px;
+		vertical-align: top;
+		z-index: 503
+	}
+	.r-gh .btn-search.active {
+		background-color: transparent;
+		background-position: 0 -157px
+	}
+	.r-gh.search-collections-open .btn-search {
+		visibility: hidden
+	}
+	.r-gh .header-search .btn-clear {
+		right: 1px;
+		top: 1px
+	}
+	.r-gh .btn-search:before {
+		display: block;
+		content: "";
+		position: absolute;
+		left: -12px;
+		height: 10px;
+		width: 1px;
+		background: #fff;
+		top: 7px;
+		cursor: default
+	}
+	.r-gh .btn-cart {
+		margin-left: 10px;
+		position: relative;
+		right: auto;
+		left: auto;
+		height: 24px;
+		width: 24px;
+		top: 26px;
+		background-position: 0 0;
+		vertical-align: top;
+		z-index: 1
+	}
+	.r-gh .btn-cart:before {
+		display: block;
+		content: "";
+		position: absolute;
+		left: -12px;
+		height: 10px;
+		width: 1px;
+		background: #fff;
+		top: 6px;
+		cursor: default
+	}
+	.r-gh .btn-cart.has-items {
+		vertical-align: top;
+		top: 21px;
+		border-radius: 5px;
+		padding: 6px 10px;
+		width: auto;
+		background-color: #000;
+		background-position: 8px 4px;
+		height: 32px
+	}
+	.r-gh .btn-cart.has-items:before {
+		top: 10px
+	}
+	.r-gh .btn-cart.has-items span {
+		vertical-align: top;
+		display: inline-block;
+		color: #fff
+	}
+	.r-gh .secondary-nav {
+		display: block;
+		float: right;
+		padding-top: 30px
+	}
+	.canada .r-gh .secondary-nav {
+		padding-right: 0
+	}
+	.r-gh .secondary-nav li {
+		float: left;
+		margin-left: 25px;
+		position: relative;
+		overflow: visible
+	}
+	.r-gh .secondary-nav li:first-child {
+		margin-left: 0
+	}
+	.r-gh .secondary-nav li:after {
+		display: block;
+		content: "";
+		position: absolute;
+		left: -12px;
+		height: 10px;
+		width: 1px;
+		background: #fff;
+		top: 2px;
+		cursor: default
+	}
+	.r-gh .secondary-nav li:first-child:after {
+		display: none
+	}
+	.r-gh .secondary-nav a {
+		color: #fff;
+		font-size: .8125rem
+	}
+	.r-gh .secondary-nav a:hover {
+		color: #fff
+	}
+	.r-gh .secondary-nav .caret {
+		fill: #fff;
+		margin-left: 2px
+	}
+	.r-gh .secondary-nav .flag-en, .r-gh .secondary-nav .flag-fr {
+		text-indent: -9999px;
+		background-position: 4px 2px;
+		background-color: #fff;
+		height: 20px;
+		border-radius: 4px;
+		margin-top: -2px
+	}
+	.r-gh .header-search {
+		padding: 0;
+		z-index: 502;
+		background: 0 0;
+		position: absolute;
+		right: -14px;
+		top: 21px;
+		width: 350px
+	}
+	.r-gh .header-search .search-field {
+		padding: 0;
+		margin: 0
+	}
+	.r-gh .header-search form {
+		padding: 0;
+		opacity: 1
+	}
+	.r-gh .header-search input[type=search] {
+		border-radius: 6px;
+		padding-right: 26px
+	}
+	.r-gh .search-collections {
+		padding: 8px 0 0
+	}
+	.r-gh .search-collections li {
+		padding: 0;
+		background: 0 0
+	}
+	.r-gh .search-collections a {
+		font-size: .875rem;
+		padding: 12px 10px;
+		line-height: 1.0625 rem;
+		border-bottom: 1px solid #E51837;
+		color: #fff
+	}
+	.r-gh .search-collections li:first-child a {
+		border-top: 1px solid #E51837
+	}
+	.r-gh .search-collections li:active, .r-gh .search-collections li:hover {
+		background: #a00;
+		border-top: 0;
+		top: 0
+	}
+	.r-gh .search-collections li:active a, .r-gh .search-collections li:hover a {
+		border-bottom: 1px solid #E51837
+	}
+	.r-gh .search-collections .thin-caret {
+		top: 35%;
+		stroke: #fff !important
+	}
+	.r-gh .search-collections .thin-caret * {
+		stroke: #fff !important
+	}
+	.r-gh .btn-cart.active {
+		visibility: hidden
+	}
+	.r-gh .minicart {
+		background: 0 0;
+		position: absolute;
+		top: 21px;
+		right: 45px;
+		width: 295px;
+		z-index: 504;
+		padding: 0 0 8px;
+		border-radius: 6px;
+		overflow: hidden
+	}
+	.r-gh.mc-items-0 .minicart {
+		width: 262px
+	}
+	.r-gh .hide-overflow .minicart-links {
+		height: 214px
+	}
+	.r-gh .minicart h2 {
+		width: auto;
+		position: relative;
+		border-bottom: 0;
+		margin: 0;
+		height: 32px;
+		padding: 8px 15px 5px 42px;
+		border-radius: 6px;
+		background-color: #000;
+		background-image: url(/wcpics/Troy/en_US/header-icons.png);
+		background-repeat: no-repeat;
+		background-position: 8px 4px;
+		background-size: 24px 230px
+	}
+	.r-gh .minicart .cart-empty, .r-gh .minicart h2 .cart-hd {
+		display: none
+	}
+	.r-gh .minicart h2 .item-count {
+		float: none;
+		font-size: .75rem
+	}
+	.r-gh .minicart h2 .count {
+		font-size: .875rem;
+		font-weight: 700
+	}
+	.r-gh .minicart-links {
+		margin-top: 4px;
+		max-height: 214px;
+		overflow-y: hidden
+	}
+	.r-gh.mc-items-3-plus .minicart-links {
+		overflow-y: scroll
+	}
+	.r-gh .cart-item {
+		padding: 8px 10px;
+		margin-right: 0;
+		margin-left: 0;
+		background: 0 0;
+		border-bottom: 1px solid #E51837
+	}
+	.r-gh .cart-item:active:after, .r-gh .cart-item:hover:after {
+		display: none
+	}
+	.r-gh .cart-item:active, .r-gh .cart-item:hover {
+		background-color: #a00;
+		border-bottom: 0;
+		padding: 8px 10px 9px
+	}
+	.r-gh .cart-item .pic {
+		width: 50px;
+		height: 50px
+	}
+	.r-gh .cart-item .title {
+		font-size: .875rem;
+		margin-bottom: 3px;
+		height: 14px
+	}
+	.r-gh .cart-item .desc {
+		font-size: .75rem;
+		line-height: 1.125 rem;
+		color: #E5E5E5;
+		height: 18px
+	}
+	.r-gh .cart-item .desc, .r-gh .cart-item .title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis
+	}
+	.r-gh .cart-item .price, .r-gh .cart-item .quantity {
+		font-size: .75rem;
+		color: #fff;
+		font-weight: 400
+	}
+	.r-gh .cart-item .price span, .r-gh .cart-item .quantity span {
+		color: #E5E5E5
+	}
+	.r-gh .btn-close-cart {
+		display: block;
+		position: absolute;
+		top: 2px;
+		right: 5px;
+		height: 32px;
+		width: 28px;
+		background: 0 0;
+		border: 0;
+		outline: 0
+	}
+	.r-gh .btn-close-cart .iconic {
+		stroke: #fff;
+		width: 11px;
+		height: 11px
+	}
+	.r-gh .btn-close-cart .iconic * {
+		stroke: #fff !important
+	}
+	.r-gh .minicart-action .button.large {
+		border-radius: 6px;
+		-webkit-box-shadow: 0 2px 4px 0 rgba(50,50,50,.2);
+		-moz-box-shadow: 0 2px 4px 0 rgba(50,50,50,.2);
+		box-shadow: 0 2px 4px 0 rgba(50,50,50,.2);
+		background: #7A7A7A;
+		background: -moz-linear-gradient(top,#8B8B8B 0,#7A7A7A 100%);
+		background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#8B8B8B),color-stop(100%,#7A7A7A));
+		background: -webkit-linear-gradient(top,#8B8B8B 0,#7A7A7A 100%);
+		background: -ms-linear-gradient(top,#8B8B8B 0,#7A7A7A 100%);
+		background: linear-gradient(top,#8B8B8B 0,#7A7A7A 100%)
+	}
+	.r-gh .minicart-action .button.large:hover {
+		background: #7A7A7A;
+		background: -moz-linear-gradient(top,#7A7A7A 0,#8B8B8B 100%);
+		background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#7A7A7A),color-stop(100%,#8B8B8B));
+		background: -webkit-linear-gradient(top,#7A7A7A 0,#8B8B8B 100%);
+		background: -ms-linear-gradient(top,#7A7A7A 0,#8B8B8B 100%);
+		background: linear-gradient(top,#7A7A7A 0,#8B8B8B 100%)
+	}
+	.r-gh .secondary-nav li ul {
+		position: absolute;
+		padding: 0;
+		width: 200px;
+		top: 24px
+	}
+	.r-gh .secondary-nav li li {
+		margin-left: 0;
+		float: none;
+		display: block
+	}
+	.r-gh .secondary-nav li li a {
+		font-size: .8125rem;
+		margin-bottom: 7px
+	}
+	.r-gh .secondary-nav li li a:hover {
+		color: #000
+	}
+	.r-gh .secondary-nav li li:after {
+		display: none
+	}
+	.r-gh.secondary-nav-open {
+		min-height: 181px
+	}
+	.r-gh.secondary-nav-open .primary-nav {
+		top: 145px
+	}
+	.r-gh.search-collections-open {
+		min-height: 276px
+	}
+	.canada .r-gh.search-collections-open {
+		min-height: 198px
+	}
+	.r-gh.search-collections-open .primary-nav {
+		top: 240px
+	}
+	.canada .r-gh.search-collections-open .primary-nav {
+		top: 198px
+	}
+	.r-gh.cart-open.mc-items-1 {
+		min-height: 198px
+	}
+	.r-gh.cart-open.mc-items-2 {
+		min-height: 268px
+	}
+	.r-gh.cart-open.mc-items-3-plus {
+		min-height: 342px
+	}
+	.r-gh.cart-open.mc-items-1 .primary-nav {
+		top: 198px
+	}
+	.r-gh.cart-open.mc-items-2 .primary-nav {
+		top: 268px
+	}
+	.r-gh.cart-open.mc-items-3-plus .primary-nav {
+		top: 342px
+	}
+}
+@media only screen and (min-width: 60em) {
+	.r-gh .header-top {
+		padding-left: 0;
+		padding-right: 0
+	}
+	.r-gh .primary-nav {
+		padding: 0
+	}
+	.r-gh .sub-menu-wrap {
+		padding-left: 0;
+		padding-right: 0
+	}
+	.r-gh .primary-nav > ul > li {
+		float: left;
+		padding: 0;
+		margin-right: 28px;
+		overflow: visible
+	}
+	.canada.fr .r-gh .primary-nav > ul > li {
+		margin-right: 6px
+	}
+	.r-gh .primary-nav > ul > li:last-child {
+		margin-right: 0
+	}
+	.r-gh.sticky {
+		min-height: 50px;
+		position: fixed;
+		width: 100%;
+		z-index: 50;
+		top: 0
+	}
+	.r-gh.sticky.search-collections-open {
+		min-height: 230px
+	}
+	.r-gh.sticky.cart-open .primary, .r-gh.sticky.search-collections-open .primary, .r-gh.sticky.search-open .primary {
+		opacity: .4
+	}
+	.r-gh.sticky .brand {
+		background: url(/wcpics/Troy/en_US/logo-troybilt-mark.png) no-repeat 0 0;
+		width: 36px;
+		height: 36px;
+		top: 7px;
+		z-index: 2
+	}
+	.r-gh.sticky .primary-nav, .r-gh.sticky.cart-open .primary-nav {
+		width: auto;
+		top: 0;
+		left: 0;
+		padding-left: 50%;
+		margin-left: -412px;
+		background: 0 0;
+		box-shadow: none;
+		z-index: 1;
+		transition: none
+	}
+	.r-gh.sticky .primary-nav > ul > li {
+		margin-right: 0
+	}
+	.r-gh.sticky .primary-nav .primary {
+		color: #fff;
+		height: 50px;
+		padding: .875rem
+	}
+	.r-gh.sticky .primary-nav .expanded .primary, .r-gh.sticky .primary-nav .primary:hover {
+		background: #e5e5e5;
+		color: #c00
+	}
+	.r-gh.sticky .btn-cart:before, .r-gh.sticky .secondary-nav {
+		display: none
+	}
+	.r-gh.sticky .primary-nav li.expanded .sub-menu {
+		top: 50px;
+		width: 150%
+	}
+	.r-gh.sticky .primary-nav li.expanded .primary:after {
+		margin-left: -18px
+	}
+	.r-gh.sticky .btn-cart {
+		top: 14px
+	}
+	.r-gh.sticky .btn-cart.has-items {
+		top: 9px
+	}
+	.r-gh.sticky .btn-search {
+		top: 14px;
+		right: 0
+	}
+	.r-gh.sticky .header-search, .r-gh.sticky .minicart {
+		top: 9px
+	}
+	.r-gh.sticky .header-search {
+		right: -4px
+	}
+	.r-gh.sticky .btn-search.active {
+		top: 13px;
+		right: 4px
+	}
+	.r-gf .email-signup, .r-gf .social {
+		text-align: left;
+		width: 50%;
+		float: left
+	}
+	.canada .r-gf .social {
+		width: 45%
+	}
+	.canada .r-gf .email-signup {
+		width: 55%
+	}
+	.r-gf .connect-signup h5 {
+		float: left;
+		margin: 0 10px 0 0
+	}
+	.r-gf .connect-signup .social h5 {
+		top: 12px
+	}
+	.r-gf .connect-signup h5:after {
+		content: "|";
+		display: inline-block;
+		margin: 0 0 0 6px
+	}
+	.r-gf .email-signup h5 {
+		margin: 0 10px 10px 0;
+		position: relative;
+		top: 7px;
+		width: auto
+	}
+	.r-gf .confirmation-message.show, .r-gf .invalid-message:not(.hide) {
+		margin-top: -10px;
+		padding-left: 108px;
+		text-align: left
+	}
+}
+@media only screen and (min-width: 116.25em) {
+	.r-gh {
+		min-height: 72px;
+		-webkit-box-shadow: 0 2px 4px 0 rgba(50,50,50,.25);
+		-moz-box-shadow: 0 2px 4px 0 rgba(50,50,50,.25);
+		box-shadow: 0 2px 4px 0 rgba(50,50,50,.25)
+	}
+	.r-gh.secondary-nav-open {
+		min-height: 159px
+	}
+	.r-gh.search-collections-open {
+		min-height: 240px
+	}
+	.canada .r-gh.search-collections-open .primary-nav, .r-gh.cart-open.mc-items-1 .primary-nav, .r-gh.cart-open.mc-items-2 .primary-nav, .r-gh.cart-open.mc-items-3 .primary-nav, .r-gh.search-collections-open .primary-nav, .r-gh.secondary-nav-open .primary-nav {
+		top: 0
+	}
+	.r-gh .brand {
+		z-index: 2
+	}
+	.r-gh .header-top {
+		max-width: 1830px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block
+	}
+	.r-gh .primary-nav {
+		background: 0 0;
+		width: auto;
+		top: 0;
+		left: 0;
+		padding-left: 50%;
+		margin-left: -615px;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		z-index: 1
+	}
+	.canada.fr .r-gh .primary-nav {
+		margin-left: -690px
+	}
+	.r-gh .primary-nav li.expanded .primary:after {
+		margin-left: -19px
+	}
+	.r-gh .primary-nav ul {
+		width: auto;
+		margin: 0
+	}
+	.r-gh .primary-nav > ul > li {
+		margin-right: 0
+	}
+	.r-gh .primary-nav .primary {
+		color: #fff;
+		height: 72px;
+		padding: 26px
+	}
+	.canada.fr .r-gh .primary-nav .primary {
+		padding: 26px 12px
+	}
+	.r-gh .primary-nav li:hover .primary {
+		background: #E5E5E5;
+		color: #c00
+	}
+	.r-gh .primary-nav li .sub-menu {
+		top: 72px;
+		width: 200%
+	}
+	.r-gh .primary-nav li .sub-menu-wrap {
+		width: 1830px;
+		max-width: 1830px
+	}
+	.r-gh.sticky .primary-nav li.expanded .sub-menu {
+		width: 200%
+	}
+}
+.r-tf {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 3rem 0
+}
+.r-tf button {
+	margin-top: 1rem
+}

@@ -1,0 +1,609 @@
+/**************************************************
+
+  --------------------
+  PMM finder styles for Troy-Bilt
+  --------------------
+
+**************************************************/
+.group.show-overflow {
+  overflow: visible;
+}
+.pmm-finder {
+  padding: 12px 12px 24px 12px;
+}
+.pmm-finder.fromCategoryPage {
+  padding: 0px;
+}
+.finder-form {
+  width: 330px;
+}
+.finder-form.fromCategoryPage {
+  width: 323px;
+}
+.finder-help {
+  width: 272px; /*CHANGED lowered to 272 from 276*/
+}
+.pmm-finder h2 {
+  font-weight: normal;
+  color: #666666;
+  font-size: 20px; /*CHANGED from 22 to 20*/
+  line-height: 22px;
+  margin: 0 0 21px 0;
+}
+.pmm-finder label,
+.pmm-finder h3 {
+  display: block;
+  color: black;
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 16px; /*CHANGED from 18 to 16;*/
+  line-height: 23px;
+  margin-bottom: -8px; /*CHANGED from 9 to -8*/
+}
+.pmm-finder .form-input {
+  font-size: 0px;
+  position: relative;
+}
+.pmm-finder input[type="text"],
+.pmm-finder input[type="search"] {
+  border: 1px solid #ABADB3;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 6px 5px 5px 5px;
+  font-size: 14px;
+  vertical-align: top;
+  width: 217px;
+  height: 28px;
+}
+.pmm-finder .btn-go,
+.pmm-finder .btn,
+.shared .pmm-finder .btn.btn-pri {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #cc3434;
+  background: -moz-linear-gradient(top, #cc3434 63%, #892326 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(63%,#cc3434), color-stop(100%,#892326));
+  background: -webkit-linear-gradient(top, #cc3434 63%,#892326 100%);
+  background: -o-linear-gradient(top, #cc3434 63%,#892326 100%);
+  background: -ms-linear-gradient(top, #cc3434 63%,#892326 100%);
+  background: linear-gradient(top, #cc3434 63%,#892326 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc3434', endColorstr='#892326',GradientType=0 );
+  width: 46px;
+  height: 28px;
+  border: 0;
+  color: white;
+  text-shadow: none;
+  border-radius: 0px;
+  font-size: 15px;
+  vertical-align: top;
+  padding-top: 0px;
+  line-height: 28px; 
+  text-transform: capitalize;
+}
+.pmm-finder .btn-go:hover,
+.pmm-finder .btn:hover,
+.shared .pmm-finder .btn.btn-pri:hover {
+  background: #E21835;
+}
+.pmm-finder .help-link {
+  color: #666666;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+.pmm-finder p {
+  margin: -2px 0 0 0;
+  font-size: 14px;
+  color: #666666;
+  line-height: 17px;
+}
+.pmm-finder .icon {
+  margin-left: 0;
+  margin-top: 1px;
+}
+.pmm-finder .field-valid.error, 
+.pmm-finder .field-valid.valid {
+  margin-top: 8px;
+}
+.pmm-finder .autocomplete {
+  background: #fff;
+  width: 215px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-left: 1px solid #adadad;
+  border-right: 1px solid #adadad;
+  -webkit-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -moz-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -ms-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -o-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: auto;
+  left: 0;
+  opacity: 0;
+}
+.pmm-finder .autocomplete li,
+.pmm-finder .autocomplete ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.pmm-finder .autocomplete a {
+  display: block;
+  color: #666666;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 9px 10px;
+  border-top: 1px solid #EDEDED;
+  vertical-align: bottom;
+}
+.pmm-finder .autocomplete a span {
+  display: block;
+  vertical-align: bottom;
+  padding-top: 1px;
+}
+.pmm-finder .autocomplete a:hover {
+  background: #EDEDED;
+}
+.autocomplete li:first-child a {
+  border-top: 0;
+}
+.close-autocomplete,
+.pmm-finder .btn-clear {
+  position: absolute;
+  bottom: 7px;
+  right: 113px;
+  font-size: 18px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 15px;
+  display: inline-block;
+  margin-top: 3px;
+  vertical-align: middle;
+  color: #ABADB3;
+  background: none;
+  border: 0;
+}
+.close-autocomplete {
+  right: 118px;
+  display: none;
+}
+.search-active .close-autocomplete,
+.pri-nav .search-active .close-autocomplete {
+  display: block;
+}
+.close-autocomplete .icon {
+  color: #ABADB3;
+}
+.pmm-finder .search-active .autocomplete,
+.pmm-finder .btn-clear.show {
+  display: block;
+  opacity: 1;
+  -webkit-animation: fade 400ms;
+     -moz-animation: fade 400ms;
+       -o-animation: fade 400ms;
+          animation: fade 400ms;
+}
+.btn-clear span {
+  display: block;
+  text-indent: -10000000px;
+}
+.pmm-finder .btn-clear:before {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'MTD Checkout';
+  content: 'd';
+}
+
+/* Top Menu - Search Form */
+.buckets .finder-form {
+  position: relative;
+}
+.buckets .finder-form input {
+  float: none;
+}
+.shared .pri-nav .btn {
+  border-radius: 0;
+  width: 50px;
+  border: 1px solid #ACADB2;
+}
+.shared .pri-nav .btn.btn-small {
+  padding: 2px 0 1px 0;
+}
+.pri-nav .finder-form label,
+.owners-center-content .finder-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.shared .finder-form .form-input {
+  margin-bottom: 0;
+}
+.shared .pri-nav input[type="text"],
+.shared .pri-nav input[type="search"], 
+.shared .pri-nav input[type="password"], 
+.shared .pri-nav input[type="email"], 
+.shared .pri-nav input[type="tel"], 
+.shared .pri-nav textarea {
+  border: 1px solid #ACADB2;
+  font-size: 11px;
+}
+.pri-nav ::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.pri-nav ::-webkit-input-placeholder {
+   color: #95959A;
+}
+.pri-nav :-moz-placeholder {
+   color: #95959A;
+}
+.pri-nav ::-moz-placeholder {
+   color: #95959A;
+}
+.pri-nav :-ms-input-placeholder {  
+   color: #95959A;
+}
+.pri-nav .finder-help h3 {
+  width: 160px;
+  font-weight: normal;
+  float: left;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.pri-nav .finder-help h3 strong {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.pri-nav .finder-help .btn {
+  float: left;
+  position: relative;
+  top: 25px;
+}
+.buckets p.redlink a {
+  font-size: 11px;
+}
+.buckets p.small {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+.buckets .finder-form {
+  overflow: visible;
+  position: static;
+}
+.pri-nav .form-input {
+  position: relative;
+}
+.pri-nav .autocomplete {
+  background: #fff;
+  width: 154px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-left: 1px solid #adadad;
+  border-right: 1px solid #adadad;
+  -webkit-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -moz-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -ms-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -o-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  z-index: 50000000000000000000;
+  position: absolute;
+  top: auto;
+  left: 0;
+  display: none;
+  opacity: 0;
+}
+.pri-nav .search-active .autocomplete {
+  opacity: 1;
+  display: block;
+  -webkit-animation: fade 400ms;
+     -moz-animation: fade 400ms;
+       -o-animation: fade 400ms;
+          animation: fade 400ms;
+}
+.pri-nav .close-autocomplete {
+  right: 70px;
+  bottom: 5px;
+  display: none;
+}
+.pri-nav .autocomplete li,
+.pri-nav .autocomplete ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.pri-nav .autocomplete a {
+  display: block;
+  color: #666666;
+  font-size: 11px;
+  text-decoration: none;
+  padding: 9px 10px;
+  border-top: 1px solid #EDEDED;
+  vertical-align: bottom;
+}
+.pri-nav .autocomplete a span {
+  display: block;
+  vertical-align: bottom;
+  padding-top: 1px;
+}
+.pri-nav .autocomplete a:hover {
+  background: #EDEDED;
+}
+.autocomplete li:first-child a {
+  border-top: 0;
+}
+
+/* PMM Finder Landing Page */
+.shared .owners-center-content h1 { 
+  font-size: 24px; 
+  line-height: 1.1em; 
+  margin: 0 0 25px 0; 
+  font-weight: bold;
+}
+.shared .owners-center-content .btn {
+  border-radius: 0;
+  width: 44px;
+}
+.shared .owners-center-content .btn.btn-small {
+  padding: 4px 0 1px 0;
+  font-size: 11px;
+}
+.owners-center-content .finder-form {
+  font-size: 0px;
+  margin-bottom: 15px;
+}
+.owners-center-content input[type="text"],
+.owners-center-content input[type="search"] {
+  border: 1px solid #ABADB3;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 6px 5px 5px;
+  font-size: 14px;
+  vertical-align: top;
+  width: 217px;
+  height: 29px;
+}
+.owners-center-content .form-input label {
+  color: #404040;
+  font-size: 13px;
+  margin: 0 0 6px 0;
+  padding: 0;
+  font-weight: 100;
+}
+.owners-center-content .finder-help h3 {
+  width: 217px;
+  font-weight: 100;
+  float: left;
+  font-size: 13px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.owners-center-content .finder-help h3 strong {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.owners-center-content .finder-help .btn {
+  float: left;
+  position: relative;
+  top: 25px;
+}
+.owners-center-content .form-input {
+  position: relative;
+}
+.owners-center-content .autocomplete {
+  background: #fff;
+  width: 215px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-left: 1px solid #adadad;
+  border-right: 1px solid #adadad;
+  -webkit-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -moz-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -ms-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -o-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  z-index: 50000000000000000000;
+  position: absolute;
+  top: auto;
+  left: 0;
+  display: none;
+  opacity: 0;
+}
+.owners-center-content .search-active .autocomplete {
+  opacity: 1;
+  display: block;
+  -webkit-animation: fade 400ms;
+     -moz-animation: fade 400ms;
+       -o-animation: fade 400ms;
+          animation: fade 400ms;
+}
+.owners-center-content .close-autocomplete {
+  right: 119px;
+  bottom: 5px;
+  display: none;
+}
+.owners-center-content .search-active .close-autocomplete {
+  display: block;
+}
+.owners-center-content .autocomplete li,
+.owners-center-content .autocomplete ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.owners-center-content .autocomplete a {
+  display: block;
+  color: #666666;
+  font-size: 11px;
+  text-decoration: none;
+  padding: 9px 10px;
+  border-top: 1px solid #EDEDED;
+  vertical-align: bottom;
+}
+.owners-center-content .autocomplete a span {
+  display: block;
+  vertical-align: bottom;
+  padding-top: 1px;
+}
+.owners-center-content .autocomplete a:hover {
+  background: #EDEDED;
+}
+
+/* Locate Model Page */
+.owners-center-content .locate-model aside {
+  width: 26%;
+}
+.owners-center-content aside .finder-help {
+  margin-bottom: 20px;
+}
+.owners-center-content aside input[type="text"],
+.owners-center-content aside input[type="search"],
+.owners-center-content aside .finder-help h3 {
+  width: 170px;
+}
+.shared .owners-center-content .parts-finder-form .btn {
+  width: 120px;
+  border: 1px solid #ACADB2;
+  margin-bottom: 20px;
+}
+.owners-center-content .locate-model .autocomplete {
+  width: 168px;
+}
+.owners-center-content .locate-model .close-autocomplete {
+  right: 166px;
+}
+
+/* Top Selling Parts Page */
+.sidebar-widget.top-selling h2 {
+  font-size: 16px;
+  letter-spacing: -.03em;
+  padding: 14px 6px 12px 12px;
+}
+.shared .top-selling .btn {
+  border-radius: 0;
+  width: 40px;
+}
+.shared .top-selling .btn.btn-small {
+  padding: 4px 0 1px 0;
+  font-size: 11px;
+}
+.top-selling .finder-form {
+  font-size: 0px;
+  margin-bottom: 15px;
+}
+.top-selling .finder-help,
+.top-selling form {
+  padding-left: 10px;
+}
+.top-selling .form-input label {
+  color: #404040;
+  display: block;
+  font-size: 12px;
+  margin: 0 0 6px 0;
+  padding: 0;
+}
+.top-selling input[type="text"],
+.top-selling input[type="search"] {
+  border: 1px solid #ABADB3;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 3px 5px 0px 5px;
+  font-size: 11px;
+  vertical-align: top;
+  width: 136px;
+  height: 24px;
+}
+.top-selling .finder-help h3 {
+  width: 217px;
+  font-weight: normal;
+  float: left;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.top-selling .finder-help h3 strong {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.top-selling .finder-help .btn {
+  float: left;
+  position: relative;
+  top: 25px;
+  left: -76px;
+}
+.top-selling .form-input {
+  position: relative;
+}
+.top-selling .autocomplete {
+  background: #fff;
+  width: 134px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-left: 1px solid #adadad;
+  border-right: 1px solid #adadad;
+  -webkit-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -moz-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -ms-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  -o-box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  box-shadow: 0px 3px 6px rgba(0,0,0,.7);
+  z-index: 50000000000000000000;
+  position: absolute;
+  top: auto;
+  left: 0;
+  display: none;
+  opacity: 0;
+}
+.top-selling .search-active .autocomplete {
+  opacity: 1;
+  display: block;
+  -webkit-animation: fade 400ms;
+     -moz-animation: fade 400ms;
+       -o-animation: fade 400ms;
+          animation: fade 400ms;
+}
+.top-selling .close-autocomplete {
+  right: 199px;
+  bottom: 2px;
+  display: none;
+}
+.top-selling .search-active .close-autocomplete {
+  display: block;
+}
+.top-selling .autocomplete li,
+.top-selling .autocomplete ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.top-selling .autocomplete a {
+  display: block;
+  color: #666666;
+  font-size: 11px;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-top: 1px solid #EDEDED;
+  vertical-align: bottom;
+}
+.top-selling .autocomplete a span {
+  display: block;
+  vertical-align: bottom;
+  padding-top: 1px;
+}
+.top-selling .autocomplete a:hover {
+  background: #EDEDED;
+}
+/*CHANGED Added original formatting for pmm widget*/
+.pmm-finder .original-format {
+	font-size: 0.8em !important;
+	color: #000 !important;
+}

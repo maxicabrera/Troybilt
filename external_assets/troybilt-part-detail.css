@@ -1,0 +1,659 @@
+/**************************************************
+
+  --------------------
+  Part Detail styles for Troy-Bilt
+  --------------------
+
+**************************************************/
+.part-detail,
+.wholegood-detail {
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 10px;
+  min-height: 0;
+}
+.part-detail .product-image-viewer {
+  width: 370px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.part-detail .product-image-viewer .main-image {
+  width: 340px;
+  min-height: 340px;
+}
+.part-detail .product-image-viewer .main-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.tmb-nav {
+  margin-top: 15px;
+  height: auto;
+}
+.tmb-nav a {
+  display: inline-block;
+  width: 83px;
+  height: 83px;
+  margin-right: 16px;
+}
+.tmb-nav img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  border: 1px solid #D8D8D8;
+}
+.tmb-nav .active img {
+  border: 1px solid #121212;
+}
+
+.part-description {
+  width: 310px;
+  padding-right: 20px;
+}
+.part-description h1,
+.model-description h1 {
+  font-size: 30px;
+  color: #cc092f;
+  margin: 0 0 23px 0;
+  font-weight: bold;
+}
+.part-description p.description,
+.model-description p.description {
+  color: #646464;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 0;
+  padding: 0;
+}
+.part-description .add-to-cart,
+.model-description .add-to-cart {
+  background: #fdfcfb;
+  background: url(/wcpics/TroyBiltUS/en_US/images/divider-bg-top-thin.png) 0 0 no-repeat;
+  padding: 63px 0 0 0;
+  margin: 0;
+}
+.part-description .add-to-cart fieldset,
+.model-description .add-to-cart fieldset {
+  margin: 0;
+  padding: 0 0 46px 0;
+  border: 0;
+  background: url(/wcpics/TroyBiltUS/en_US/images/divider-bg-bottom-thin.png) 0 bottom no-repeat;
+}
+.part-description h3.price,
+.model-description h3.price {
+  font-size: 36px;
+  color: #646464;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  margin-bottom: 12px;
+  margin-left: 15px;
+}
+.part-description h3.price .old-price,
+.model-description h3.price .old-price {
+  font-style: normal;
+  text-decoration: line-through;
+  color: #9FA1A3;
+}
+.part-description h3.price .availability,
+.model-description h3.price .availability {
+  font-size: 14px;
+  color: #646464;
+}
+.part-description .add-to-cart fieldset label,
+.part-description .pmm-finder.add-to-cart fieldset label,
+.model-description .pmm-finder.add-to-cart fieldset label {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 8px;
+  margin-left: 15px;
+  padding-top: 4px;
+  color: #6e6e6e;
+}
+.part-description .pmm-finder.add-to-cart fieldset .color-select label {
+  padding-top: 0;
+}
+.shared .part-detail .btn.btn-pri {
+  width: 122px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 18px;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  height: 38px;
+  font-weight: bold;
+  border-left: 1px solid #730202;
+  border-right: 1px solid #730202;
+  text-shadow: 1px 1px 1px #2F2F2F;
+  position: relative;
+  top: -2px;
+  margin-left: 18px;
+}
+
+/* color select */
+.color-select {
+  margin: 0 0 -8px 0;
+}
+.color-select label {
+  width: 108px;
+  overflow: hidden;
+  text-transform: capitalize;
+  line-height: 18px;
+}
+.color-select .colors {
+  width: 179px;
+}
+#bd .pmm-finder label .selected-style {
+  text-transform: capitalize;
+}
+.color-select .colors a,
+.shared .colors a.has-tip {
+  display: inline-block;
+  width: 45px;
+  height: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+.color-select .colors a.active {
+  border: 1px solid #404040;
+  width: 43px;
+  height: 28px;
+}
+.shared .colors a.has-tip:hover {
+  cursor: pointer;
+  border: 1px solid #404040;
+  width: 43px;
+  height: 28px;
+}
+.colors .field-valid.error,
+.colors .field-valid.valid {
+  margin-top: -8px;
+}
+
+.part-description .add-to-cart h3.unavailable,
+.model-description .add-to-cart h3.unavailable { 
+  color: #999999;
+  font-size: 16px; 
+  margin: 10px 0 0 15px;
+}
+
+.part-description .add-to-cart fieldset input,
+.model-description .add-to-cart fieldset input {
+  width: 60px;
+  border: 1px solid #a0a0a0;
+  border-radius: 4px;
+  font-size: 16px; 
+  padding: 5px 10px;
+  height: 32px;
+}
+.part-description p.notes,
+.model-description p.notes {
+  font-size: 14px;
+  color: #999999;
+  line-height: 18px;
+  position: relative;
+  top: -10px;
+}
+
+.related-parts {
+  border: 1px solid #E4E4E4;
+  -webkit-box-shadow: 0px 0px 0px 2px #F1F1F1;
+  box-shadow: 0px 0px 0px 2px #F1F1F1;
+  width: 230px;
+  position: relative;
+  top: 2px;
+}
+.related-parts .related-item span.col {
+  display: block;
+  margin-bottom: 0;
+}
+.related-parts h2 {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 7px 10px;
+  text-align: left;
+  margin: 0;
+  border-bottom: 1px solid #EDEDED;
+}
+.related-parts h2 .item-count {
+  float: right;
+  color: #999999;
+}
+.related-parts a.related-item {
+  border: 0;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 7px 10px;
+  display: block;
+  border-bottom: 1px solid #ededed;
+}
+.related-parts a.related-item:hover {
+  background: #ededed;
+}
+.related-parts img {
+  display: block;
+  margin-top: 3px;
+  width: 62px;
+  height: auto;
+}
+.related-parts .related-item .col.pic {
+  width: 74px;
+}
+.related-parts .related-item .col.pic img {
+  border: 1px solid #efede7;
+  background: #fff;
+}
+.related-parts .related-item .col.product-info {
+  width: 135px;
+}
+.related-parts .related-item .title {
+  margin-bottom: 2px;
+}
+.related-parts .related-item span {
+  display: inline;
+}
+.related-parts .related-item span.col {
+  color: #333;
+}
+.related-parts .related-item .price span,
+.related-parts .related-item .quantity span {
+  color: #999999;
+}
+.related-parts .related-item .desc {
+  display: block;
+  height: 30px;
+  line-height: 14px;
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+.related-parts .related-item strong.quantity,
+.related-parts .related-item strong.price {
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.related-parts .related-item .quantity{
+  margin-top: 0px;
+  margin-right: 5px;
+  width: 45px;
+}
+.related-parts .minicart-action {
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.tab-content-container.checkout .action {
+  text-align: left;
+}
+.tab-content-container.checkout .btn {
+  line-height: 1.629em;
+}
+.tab-content-container .tabs {
+  padding: 0;
+  margin: 0 0 10px 0;
+  width: auto;
+}
+
+.tab-content-container .tabs > ul > li a {
+  background: #646464;
+  background: -moz-linear-gradient(top, #646464 50%, #4b4b4b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #646464), color-stop(100%, #4b4b4b));
+  background: -webkit-linear-gradient(top, #646464 50%, #4b4b4b 100%);
+  background: -o-linear-gradient(top, #646464 50%, #4b4b4b 100%);
+  background: -ms-linear-gradient(top, #646464 50%, #4b4b4b 100%);
+  background: linear-gradient(to bottom, #646464 50%, #4b4b4b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646464', endColorstr='#4b4b4b',GradientType=0 );
+}
+.tab-content-container .tabs > ul > li a:hover {
+  background: #787878;
+}
+.tab-content-container .tab-content {
+  padding: 10px 20px 20px 20px;
+}
+.tab-content-container .tab-content h3 {
+  font-size: 14px;
+  color: #404040;
+  text-transform: none;
+  margin: 0 0 1em 0;
+}
+.tab-content-container .tab-content ul {
+  margin: 0 0 20px 0;
+}
+.tab-content-container .tab-content ul.products {
+  margin-bottom: 0;
+}
+.tab-content-container .tab-content li {
+  font-size: 14px;
+  padding: 0;
+  background: none;
+  list-style: inside disc;
+}
+.tab-content-container .tab-content p {
+  font-size: 14px;
+  color: #999999;
+  margin: 0 0 1.5em 0;
+}
+.filter-title.col {
+  width: 140px;
+}
+.tab-content-container .tab-content .filter-title h3 {
+  margin: 0;
+  line-height: 24px;
+}
+.checkout form.custom .dropdown-container .custom.dropdown,
+.shared form.custom .dropdown-container .custom.dropdown {
+  width: 100%;
+  background: inherit;
+}
+.shared form.custom .dropdown-container.french.sort-by .custom.dropdown {
+  width: 155px;
+}
+.shared form.custom .filter-dropdown {
+  width: 200px;
+}
+.shared form.custom .filter-dropdown .dropdown-container {
+  width: 140px;
+  float: left;
+}
+.tab-content-container .tab-content ul.model-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tab-content-container .tab-content ul.model-list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tab-content-container .tab-content ul.model-list li a {
+  padding: 6px 10px 4px 10px;
+  font-size: 12px;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 1px solid #ededed;
+  list-style: none;
+  text-decoration: none;
+  display: block;
+}
+.tab-content-container .tab-content ul.model-list li a:hover {
+  text-decoration: underline;
+}
+.tab-content-container .tab-content a.expand-list {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  padding: 6px 10px 4px 10px;
+}
+/* How To Tab */
+.tab-content.how-to {
+  padding-top: 15px;
+}
+.tab-content.how-to h1 {
+  font-size: 20px;
+  color: #404040;
+  margin: 0 auto 12px auto;
+  max-width: 840px;
+}
+.tab-content.how-to .how-tos {
+  margin-top: 0;
+}
+.tab-content-container .tab-content.how-to .how-tos ul, 
+.tab-content-container .tab-content.how-to .how-tos ul li {
+  width: 840px;
+}
+.tab-content-container .tab-content.how-to .how-tos li a {
+  width: 210px;
+}
+/* Components Tab */
+.parts-tabs .results.grid li.product {
+  width: 25%;
+}
+/* Promotions Tab */
+.tab-content-container {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  border-top: 0;
+}
+.parts-tabs.tab-content-container,
+.wholegood.tab-content-container {
+  width: 940px;
+  margin: 0 auto 50px auto;
+}
+.parts-tabs.tab-content-container .tabs,
+.wholegood.tab-content-container .tabs {
+  height: auto;
+}
+.parts-tabs.tab-content-container .tabs li,
+.wholegood.tab-content-container .tabs li {
+  display: block;
+  float: left; 
+  font-size: 16px; 
+  font-weight: bold; 
+  line-height: 18px; 
+  margin: 0;
+  padding: 0 0 13px 0;
+  text-align: center;
+  position: relative;
+  text-shadow: 1px 1px 1px #2f2f2f;
+  width: 16.66666666666666666666%;
+}
+.parts-tabs.tab-content-container .tabs a,
+.wholegood.tab-content-container .tabs a { 
+  border-left: 1px solid #444444;
+  border-right: 1px solid #888888;
+  color: #ffffff; 
+  display: block;
+  padding: 12px 0;
+  text-decoration: none; 
+}
+.tab-content-container .tabs li.active > a,
+.parts-tabs.tab-content-container .tabs li.active > a,
+.wholegood.tab-content-container .tabs li.active > a {
+  background: #c22820;
+  background: rgb(194,40,32);
+  background: -moz-linear-gradient(top, rgba(194,40,32,1) 0%, rgba(159,20,24,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(194,40,32,1)), color-stop(100%,rgba(159,20,24,1)));
+  background: -webkit-linear-gradient(top, rgba(194,40,32,1) 0%,rgba(159,20,24,1) 100%);
+  background: -o-linear-gradient(top, rgba(194,40,32,1) 0%,rgba(159,20,24,1) 100%);
+  background: -ms-linear-gradient(top, rgba(194,40,32,1) 0%,rgba(159,20,24,1) 100%);
+  background: linear-gradient(to bottom, rgba(194,40,32,1) 0%,rgba(159,20,24,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c22820', endColorstr='#9f1418',GradientType=0 );
+}
+.parts-tabs.tab-content-container .tabs ul,
+.wholegood.tab-content-container .tabs ul {
+  height: auto;
+}
+.parts-tabs.tab-content-container .tabs li.active,
+.wholegood.tab-content-container .tabs li.active {
+  height: auto;
+  background: url(/wcpics/TroyBiltUS/en_US/images/active-tab.png) center bottom no-repeat;
+} 
+.parts-tabs .orbit-container,
+.wholegood .orbit-container {
+  max-width: 840px;
+  margin: 0 auto;
+}
+.tab-content.promotions {
+  margin-bottom: 0px;
+  border: 0;
+}
+.tab-content .bundle {
+  margin-bottom: 30px;
+  border: 1px solid #cccccc;
+}
+.bundle h6 {
+  color: #646464;
+  font-size: 18px;
+  border-bottom: 1px solid #cccccc;
+  padding: 12px 22px;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: normal;
+  background: #dcdcdc;
+  background: -moz-linear-gradient(top, #ececec 0%, #dcdcdc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ececec), color-stop(100%, #dcdcdc));
+  background: -webkit-linear-gradient(top, #ececec 0%, #dcdcdc 100%);
+  background: -ms-linear-gradient(top, #ececec 0%, #dcdcdc 100%);
+  background: linear-gradient(to bottom, #ececec 0%, #dcdcdc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#dcdcdc',GradientType=0 );
+}
+.promotions .description strong {
+  display: block;
+  margin-bottom: 8px;
+}
+.parts-tabs .bundle > ul {
+  padding: 30px 15px;
+}
+.parts-tabs .bundle > ul > li {
+  width: 200px; 
+  margin-right: 10px; 
+  text-align: center;
+  list-style: none;
+  display: block;
+}
+.bundle a {
+  display: block;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.bundle .plus {
+  background: url(/wcpics/TroyBiltUS/en_US/images/bg-bundle-plus.png) no-repeat right 68px;
+}
+.bundle .equal {
+  background: url(/wcpics/TroyBiltUS/en_US/images/bg-bundle-equal.png) no-repeat right 70px;
+  margin-right: 0;
+}
+.bundle .img-wrap {
+  display: block;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+.bundle img {
+  width: 120px;
+  height: auto;
+}
+.bundle-item strong,
+.bundle-item .price {
+  display: block;
+  text-align: center;
+  width: auto;
+  font-size: 16px;
+  line-height: 18px;
+  max-width: 150px;
+  margin: 0 auto;
+}
+.bundle-item strong {
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+#product-info-tabs .tab-content .bundle-item strong {
+  color: #e51837;
+}
+.bundle-item .price {
+  color: #646464;
+  padding: 0px;
+}
+.tab-content-container .tab-content.promotions li.pricing {
+  width: 190px;
+  margin-right: 0px;
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+.bundle .pricing .bundle-item {
+  color: #646464;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 1.4;
+  text-align: center;
+}
+.bundle .bundle-price {
+  background: url(/wcpics/TroyBiltUS/en_US/images/bg-bundle-detail.png) no-repeat 0 5px;
+  padding-left: 28px;
+  text-align: center;
+  margin: 0 auto 32px auto;
+}
+.promotions .pricing .total-price {
+  display: block;
+  color: #cccccc;
+  font-size: 18px;
+  text-decoration: line-through;
+  text-align: center;
+  margin: 0 auto;
+}
+.bundle .col.action {
+  width: 90px;
+}
+.bundle .pricing label {
+  font-size: 12px;
+  color: #999999;
+  display: inline-block;
+}
+.bundle .pricing form {
+  padding-left: 20px;
+}
+.bundle .pricing input {
+  width: 32px;
+  border: 1px solid #A4A4A4;
+  padding: 5px;
+  color: #333;
+  font-size: 13px;
+  height: 28px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+.bundle .pricing .col.quantity {
+  position: relative;
+  top: 1px;
+}
+.bundle .pricing .btn.btn-small {
+  width: 85px;
+}
+.bundle .pricing .group.add-to-cart {
+  overflow: visible;
+  padding-top: 0px;
+}
+
+ /* specifications tab */
+.tab-content.specifications p {
+  margin: 10px 0 15px;
+}
+dl.specifications {
+  margin-bottom: 30px;
+  border-top: 1px solid #CCCCCC;
+}
+.inline-dl {
+  margin: 0;
+  padding: 0;
+}
+.inline-dl dt {
+  clear: both;
+  color: #404040;
+  font-size: 13px;
+  font-weight: bold;
+  width: 35%;
+}
+.inline-dl dt, .inline-dl dd {
+  border-top: 0;
+  border-bottom: 1px solid #CCCCCC;
+  float: left;
+  margin: 0;
+  padding: 7px 0;
+}
+.inline-dl dd {
+  color: #404040;
+  font-size: 13px;
+  font-weight: normal;
+  width: 65%;
+}

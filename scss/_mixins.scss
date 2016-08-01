@@ -1,0 +1,91 @@
+// ----------------------------------
+// 1.1 Color palette
+// ----------------------------------
+$white          : #FFFFFF;
+$black          : #000000;
+
+$red       		  : #cc0000;
+$red-indicator  : #C91500;
+$grey           : #959595;
+$medium-grey	  : #666666;
+$shadow         : #cccccc;
+$link           : #7a7a7a;
+$bg-grey        : #e5e5e5;
+
+
+@mixin box-shadow($horizontal, $vertical, $blur, $spread, $color){
+    -webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+    box-shadow: $horizontal $vertical $blur $spread $color;
+}
+// Usage
+//@include box-shadow (1px, 1px, 3px, 2px, $grey);
+
+// Links
+@mixin linx($link, $visit, $hover, $active) {
+    color: $link;
+    &:visited { color: $visit;  }
+    &:hover   { color: $hover;  }
+    &:active  { color: $active; }
+}
+// Usage
+//@include linx($white, $red, $grey, $grey) ;
+
+@mixin text-overflow($height, $lines){
+    max-height: $height;
+    -webkit-line-clamp: $lines;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+// Usage
+//@include text-overflow(40px, 2);
+
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// .container-with-floated-children {
+//   @extend %clearfix;
+// }
+
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+/*
+local
+$font-roboto           : 'roboto-regular', 'HelveticaNeue', Arial, sans-serif;
+$font-roboto-bold      : 'roboto-cnd-bold', 'HelveticaNeue', Arial, sans-serif;
+//$font-roboto-cond      : 'roboto-cnd-reg', 'HelveticaNeue', Arial, sans-serif;
+//$font-roboto-cond-bold : 'roboto-cnd-bold', 'HelveticaNeue', Arial,sans-serif;
+$font-roboto-cond      : 'Roboto Condensed', sans-serif;
+$font-roboto-cond-bold : 'Roboto Condensed', sans-serif;
+$font-bebas            : 'bebas-bold','HelveticaNeue', Arial, sans-serif;
+/*
+FINALES*/
+$font-roboto           : "Roboto",sans-serif;
+$font-roboto-bold      : 'Roboto Condensed', 'HelveticaNeue', Arial, sans-serif;
+$font-roboto-cond      : 'Roboto Condensed', sans-serif;
+$font-roboto-cond-bold : 'Roboto Condensed', sans-serif;
+$font-bebas            : "bebas_neueregular",'bebas-bold',sans-serif;
+
+
+@mixin bp-tablet {
+  @media only screen and (min-width: 48em) {
+    @content;
+  }
+}

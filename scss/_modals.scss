@@ -1,0 +1,148 @@
+.tb-calculator {
+    &.reveal-modal {
+      min-height: 300px;
+        @media #{$small-only} {
+            // fix height
+            min-height: auto !important;
+
+            right: 0;
+            max-width: 90%;
+            margin: 45px auto 0;
+        }
+
+        @media #{$medium-up} {
+            // set max width 600 pixels
+            max-width: 37.500em;
+        }
+
+        .close-reveal-modal {
+            top: -15px;
+            right: -15px;
+
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+
+            background-color: $black;
+            color: $white;
+            border: 2px solid $white;
+
+            @media (min-width: 39em) {
+                top: -30px;
+                right: -30px;
+                width: 60px;
+                height: 60px;
+                border-radius: 30px;
+            }
+            @media #{$medium-up} {
+                top: -15px;
+                right: -15px;
+
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+            }
+
+
+            &:before {
+                display: block;
+                width: 30px;
+                height: 30px;
+                content: "";
+                background-image: url('../images/modals/icon-close--small.png');
+                background-repeat: no-repeat;
+                background-position: 7px 7px;
+
+                @media (min-width: 39em) {
+                    width: 60px;
+                    height: 60px;
+                    background-image: url('../images/modals/icon-close.png');
+                    background-position: 17px 17px;
+                }
+                @media #{$medium-up} {
+                    width: 30px;
+                    height: 30px;
+                    background-image: url('../images/modals/icon-close--small.png');
+                    background-position: 7px 7px;
+                }
+            }
+        }
+
+        .columns:first-child {
+            border-right: 1px solid $grey;
+        }
+
+        .tb-modal-title {
+            margin-bottom: 0;
+            padding-left: 30px;
+            height: 2.5em;
+
+            background: $grey;
+            color: $white;
+            font-size: rem-calc(24);
+            font-family: $font-roboto-cond-bold;
+            font-family: $font-bebas;
+            line-height: 2.5em;
+            text-transform: uppercase;
+
+            @media (min-width: 39em) {
+                font-size: rem-calc(48);
+            }
+            @media #{$medium-up} {
+                padding-left: 20px;
+                font-size: rem-calc(24);
+            }
+        }
+
+        .tb-product {
+            padding: 40px 20px;
+
+            @media #{$medium-up} {
+                padding-top: 20px;
+            }
+
+            &__name {
+                color: $black;
+                font-size: rem-calc(14);
+                font-family: $font-roboto-cond-bold;
+                text-transform: uppercase;
+                background: none;
+                padding: 0 0 0 3%;
+                @media (min-width: 39em) {
+                    font-size: rem-calc(28);
+                }
+                @media #{$medium-up} {
+                    font-size: rem-calc(14);
+                }
+            }
+
+            &__media {
+                text-align: center;
+                img{
+                    max-width: 100%;
+                }
+            }
+
+            &__description {
+                margin-left: 0;
+                padding:0 0 0 3%;
+                @media #{$medium-up} {
+                    margin-left: 12px;
+                }
+                li{
+                    line-height: 1.5em;
+                    font-size: rem-calc(12);
+                    font-family: $font-roboto;
+                    color: $medium-grey;
+
+                    @media (min-width: 39em) {
+                        font-size: rem-calc(24);
+                    }
+                    @media #{$medium-up} {
+                        font-size: rem-calc(12);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,163 @@
+/*
+// Behold, here are all the Foundation components.
+@import 'foundation/components/grid';
+@import 'foundation/components/accordion';
+@import 'foundation/components/alert-boxes';
+@import 'foundation/components/block-grid';
+@import 'foundation/components/breadcrumbs';
+@import 'foundation/components/button-groups';
+@import 'foundation/components/buttons';
+@import 'foundation/components/clearing';
+@import 'foundation/components/dropdown';
+@import 'foundation/components/dropdown-buttons';
+@import 'foundation/components/flex-video';
+@import 'foundation/components/forms';
+@import 'foundation/components/icon-bar';
+@import 'foundation/components/inline-lists';
+@import 'foundation/components/joyride';
+@import 'foundation/components/keystrokes';
+@import 'foundation/components/labels';
+@import 'foundation/components/magellan';
+@import 'foundation/components/orbit';
+@import 'foundation/components/pagination';
+@import 'foundation/components/panels';
+@import 'foundation/components/pricing-tables';
+@import 'foundation/components/progress-bars';
+@import 'foundation/components/range-slider';
+@import 'foundation/components/reveal';
+@import 'foundation/components/side-nav';
+@import 'foundation/components/split-buttons';
+@import 'foundation/components/sub-nav';
+@import 'foundation/components/switches';
+@import 'foundation/components/tables';
+@import 'foundation/components/tabs';
+@import 'foundation/components/thumbs';
+@import 'foundation/components/tooltips';
+@import 'foundation/components/top-bar';
+@import 'foundation/components/type';
+@import 'foundation/components/offcanvas';
+@import 'foundation/components/visibility';
+
+@import 'slick';
+@import 'mixins';
+@import 'typo';
+*/
+#tb-content {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background: #fff; }
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto; }
+
+nav {
+  height: auto;
+  margin: inherit;
+  max-width: none;
+  position: inherit;
+  z-index: inherit; }
+
+header {
+  margin-bottom: inherit;
+  position: inherit;
+  z-index: inherit; }
+
+footer {
+  margin: inherit;
+  width: inherit; }
+
+ul.sub-menu {
+  visibility: visible; }
+
+.tips-advice-content .content-header .caption {
+  box-sizing: content-box; }
+
+.r-gf .connect-signup .social ul li a {
+  background-image: url("https://mtdp.co/wcpics/Troy/en_US/social-icons.png");
+  background-repeat: no-repeat;
+  background-size: 236px 42px; }
+
+.r-gf .sub-footer p {
+  text-align: center; }
+
+.tips-advice-content .content-header .caption {
+  z-index: 1; }
+
+.product-listing-content .category-header .caption {
+  z-index: 1; }
+
+input:invalid, textarea:invalid {
+  background-color: inherit; }
+
+.email-signup input {
+  float: inherit;
+  height: inherit; }
+
+
+.r-gh .primary-nav .sub-menu-wrap a{
+  color: initial;
+  text-decoration: none;
+}
+.r-gm{
+  width: 100%;
+}
+
+/*fallback in app.css in case of static.css not present*/
+@media only screen and (max-width: 57.75em) {
+  .primary-nav .sub-menu.tips .col > *,
+  .primary-nav .sub-menu.support .col > *{
+    display: none !important;
+  }
+  .primary-nav .sub-menu.tips .col,
+  .primary-nav .sub-menu.support .col{
+    float: none;
+  }
+  .primary-nav .sub-menu.tips .col h3:first-of-type{
+    display: block !important;
+    line-height: 1.125rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #000;
+  }
+  .primary-nav .sub-menu.support .col:first-of-type a:first-of-type,
+  .primary-nav .sub-menu.support .col:nth-of-type(2) h3:first-of-type,
+  .primary-nav .sub-menu.support .col:nth-of-type(3) h3:first-of-type,
+  .primary-nav .sub-menu.support .col:nth-of-type(4) h3:first-of-type,
+  .primary-nav .sub-menu.support .col:last-of-type a:first-of-type{
+    display: block !important;
+    line-height: 1.125rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #000;
+  }
+  html:not(.canada) .primary-nav .sub-menu.tips .col,
+  html:not(.canada) .primary-nav .sub-menu.support .col,
+  .canada .primary-nav .sub-menu.support .col:nth-of-type(3){
+    /*padding: 12px;*/
+    margin: 0;
+    border-bottom: 1px solid #95959a;
+  }
+  html:not(.canada) .primary-nav .sub-menu.tips .col:last-of-type,
+  html:not(.canada) .primary-nav .sub-menu.support .col:last-of-type{
+    border-bottom: none;
+  }
+  .primary-nav .sub-menu.support .col:first-of-type a:first-of-type h3,
+  .primary-nav .sub-menu.support .col:last-of-type a:first-of-type h3{
+    line-height: 1.125rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #000;
+  }
+  .primary-nav .sub-menu.support .col:first-of-type a:first-of-type:hover,
+  .primary-nav .sub-menu.support .col:nth-of-type(3) h3:first-of-type:hover,
+  .primary-nav .sub-menu.support .col:nth-of-type(4) h3:first-of-type:hover,
+  .primary-nav .sub-menu.support .col:last-of-type a:first-of-type:hover{
+    color: #c00;
+  }
+}
+
+
+#tb-content .tb-products.row{
+  width: 100%;
+}

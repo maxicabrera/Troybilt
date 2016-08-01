@@ -1,0 +1,469 @@
+@media only screen and (min-width: 48em) and (max-width: 64em) {
+	.r-sp .r-banner .banner_text {
+		margin: 2.3em 2.8em 0 0;
+	}
+	.r-sp .r-products .product-details {
+		width: 57%;
+	}
+	.r-sp .r-products .product-img {
+		width: 42%;
+	}
+	.r-sp .r-products .product-img img {
+		width: 100%;
+	}
+	.r-sp .r-products .prdt-dtls,
+	.r-sp  .sing-img img {
+		width: 57%;
+	}
+	.r-sp .r-products .prdt-img {
+		width: 42%;
+	}
+	.r-sp .r-products .prdt-img img {
+		width: 100%;
+	}
+	.r-sp h6 {
+		font-size: 1.5em;
+	}
+	/*knowledge-center-page-starts-from-here*/
+	.r-sp .fert-cont-wrap .related-content {
+		margin-right: 1em;
+		width: 29%;
+	}
+	.r-sp .related-products-wrap .related-products {
+		margin-right: 1.7em;
+	}
+	.r-sp .related-products-wrap {
+		padding: 1.8em 0 0 1em;
+	}
+	.r-sp .related-products-wrap .related-products p {
+		font-size: 0.775em;
+	}
+	.r-sp .fert-cont-wrap .fert-details img {
+		margin: 0.5em 0.4em 0 1.5em;
+	}
+
+	.r-sp .about-pdt, .winter-season {
+		width: 31.3%;
+	}
+	.r-sp .about-pdt-dtl .global-btn, .r-sp .sesn-detl .global-btn {
+		width: 100%;
+		font-size: 0.7em;
+	}
+	.r-sp .winter-tnings {
+		margin-top: 0;
+	}
+	.r-sp .about-pdt-dtl p, .r-sp .sesn-detl p {
+		margin-bottom: 0;
+		min-height: 110px;
+	}
+	.r-sp .pro-hd {
+		min-height: 50px;
+	}
+	.r-sp .pro-pic {
+		width: 100%;
+	}
+	.r-sp .vortex-wrap {
+		padding: 1.75em 1.25em;
+	}
+	.r-sp .pdt-wrapper {
+		padding: 4em 1.75em;
+	}
+	.r-sp .pdt-img {
+        height: 171px;
+        margin-bottom: 1em;
+        overflow: hidden;
+	}
+	.r-sp .mar-r {
+		margin-right: 1.275em;
+	}
+	.r-sp .fert-cont-wrap .trimmer-img img {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.r-sp .trimmer-info p {
+		width: 97%;
+	}
+	.r-sp .related-info img {
+		width: 100%;
+	}
+
+	.r-sp .paddlr40 {
+
+	}
+
+	.r-sp .lawn-fertilizer-sec.border-b.vid-p {
+		width: 100%;
+	}
+
+	.r-sp .wdt100 {
+		width: 100%;
+	}
+	.r-sp .pdlr20 {
+		padding: 0 1.25em;
+	}
+
+}
+@media only screen and (max-width: 47.9375em) {
+
+    .r-products hr{
+        width:94%;
+    }
+    .r-products .global-btn{
+        width:100%;
+    }
+    .r-sp .fert-cont-wrap .fert-task {
+        border-top: 1px solid #eeeeee;
+    }
+    .r-sp .fert-cont-wrap .fert-task:first-child {
+        border-top: 0px none transparent;
+    }
+	.r-sp  .landing-products-wrap {
+		padding: 0;
+	}
+	.r-sp .r-products .product-details, .r-sp .r-products .product-img, 	.r-sp .r-products .prdt-dtls, .r-sp .r-products .prdt-img {
+		width: 100%;
+		float: none;
+	}
+	.r-sp .winter-season .product-details, .r-sp .winter-season .prdt-dtls {
+		padding: 2em 0 3.3125em;
+	}
+	.r-sp .product-img, .r-sp .prdt-img {
+		text-align: center;
+	}
+	.r-sp .product-img img, .r-sp .prdt-img img {
+		width: 100%;
+	}
+	.r-sp h6 {
+		font-size: 1.9em;
+		line-height: 32px;
+	}
+	.r-sp p {
+		font-size: 0.8125em;
+	}
+	.r-sp .r-products {
+		padding: 0;
+	}
+	.hidden-xs {
+		display: none;
+	}
+	.hidden-sm {
+		display: block;
+	}
+	.border-b-sm {
+		border-bottom: 0;
+	}
+	.padd40 {
+		padding-left: 1.25em;
+		padding-right: 1.25em;
+	}
+	.global-btn {
+		width: 280px;
+		border-radius: 2px;
+	}
+	.r-sp  .landing-products-wrap .winter-tnings {
+		margin-top: 2em;
+		overflow: hidden;
+	}
+	.r-sp  .landing-products-wrap .winter-tnings li {
+		float: left;
+		width: 50%;
+	}
+	.r-sp  .landing-products-wrap .winter-tnings li a {
+		display: block;
+		text-align: center;
+		padding: 1.0625em 0;
+	}
+	.padd28 {
+		padding-bottom: 1.75em;
+		padding-top: 1.75em;
+	}
+	.padd-bn {
+		padding-bottom: 0;
+	}
+	.marginb-n {
+		margin-bottom: 0;
+	}
+	.r-sp  .landing-products-wrap .winter-tnings.margint-n {
+		margin-top: 0;
+	}
+	.margint-n {
+		margin-top: 0;
+	}
+	.border-r {
+		border-right: 1px solid #e5e5e5;
+	}
+	.r-sp  .landing-products-wrap .winter-tnings a:hover .icon-spring {
+		background-position: -50px 0;
+	}
+	.r-sp  .landing-products-wrap .winter-tnings a:hover .icon-summer {
+		background-position: -50px -50px;
+	}
+	.r-sp  .landing-products-wrap .winter-tnings a:hover .icon-fall {
+		background-position: -50px -100px;
+	}
+	.r-sp  .landing-products-wrap .winter-tnings a:hover .icon-snow {
+		background-position: -50px -150px;
+	}
+	.r-sp .r-banner .banner-content {
+		position: static;
+	}
+	.r-sp .r-banner .banner_text {
+		float: none;
+		margin: 1em auto 0;
+		width: 87%;
+	}
+	.r-sp .r-products .prdt-dtls, .r-sp .r-products .prdt-img {
+		padding-top: 1.5em;
+	}
+
+	.r-sp .r-banner .banner_text strong {
+		color: #cc0000;
+	}
+	.r-sp .r-banner .banner_text span {
+		color: #000000;
+	}
+
+	/*knowledge-center-page-starts-from-here*/
+	.r-sp .lawn-fertilizer-sec {
+		margin: 0 auto;
+		padding: 1.25em 0 0;
+		width: 87.4%;
+	}
+	.r-sp .fert-cont-wrap .related-content, .r-sp .fert-cont-wrap .fert-content {
+		float: none;
+		width: 87.4%;
+		margin: 0 auto;
+	}
+	.r-sp .fert-cont-wrap .fert-task {
+		padding: 1.7em 0 0.5em 0;
+	}
+	.r-sp .fert-cont-wrap .fert-details {
+		-webkit-display: flex;
+		display: flex;
+		flex-direction: column;
+		-webkit-flex-direction: column;
+		width: 100%;
+	}
+	.dtl-head {
+		order: 1;
+	}
+	.r-sp .fert-cont-wrap .fert-details img {
+		float: none;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+	.r-sp .fert-cont-wrap .fert-details picture {
+		order: 3;
+	}
+	.r-sp .fert-cont-wrap .fert-task p {
+		order: 2;
+	}
+	.r-sp .social-lnk ul li {
+		margin-bottom: 16px;
+	}
+    .r-sp .social-lnk ul {
+        font-size: 0px;
+    }
+	.icon-fb, .icon-twet, .icon-pin, .icon-gp, .icon-in, .icon-prt {
+		background-position: -9px -229px;
+		background-size: 100px auto;
+		height: 33px;
+		width: 33px;
+	}
+	.icon-twet {
+		background-position: -59px -229px;
+	}
+	.icon-pin {
+		background-position: -9px -319px;
+	}
+	.icon-gp {
+		background-position: -59px -399px;
+	}
+	.icon-in {
+		background-position: -9px -398px;
+	}
+	.icon-prt {
+		background-position: -59px -319px;
+	}
+	.icon-fb:hover {
+		background-position: -9px -273px;
+	}
+	.icon-twet:hover {
+		background-position: -59px -273px;
+	}
+	.icon-pin:hover {
+		background-position: -9px -358px;
+	}
+	.icon-gp:hover {
+		background-position: -59px -441px;
+	}
+	.icon-in:hover {
+		background-position: -9px -441px;
+	}
+	.icon-prt:hover {
+		background-position: -59px -358px;
+	}
+	.r-sp .related-videos .videos {
+		display: inline-block;
+		width: 40%;
+		vertical-align: middle;
+		padding-bottom:33.87%
+	}
+	.r-sp .related-videos a {
+		display: inline-block;
+		margin-bottom: 1em;
+		vertical-align: middle;
+		width: 58.4%;
+		padding-left: 1.5em;
+	}
+	/*Video-page-starts-from-here*/
+	.r-sp .lawn-fertilizer-sec .vie-del p {
+		display: block;
+		width: 100%;
+		margin-bottom: 1em;
+	}
+	.r-sp .lawn-fertilizer-sec .vie-del strong {
+		display: block;
+		width: 100%;
+		text-align: left;
+		margin-bottom: 2em;
+	}
+
+	.r-sp .fert-cont-wrap .help-opn strong {
+		display: block;
+		margin-bottom: 1em;
+	}
+	.r-sp .fert-cont-wrap .help-opn a {
+		width: 85px;
+	}
+	.r-sp .lawn-fertilizer-sec .pro-vid {
+		width: 100%;
+        margin: 0;
+        padding-bottom: 55%;
+	}
+	.r-sp .vid-p {
+		-webkit-display: flex;
+		display: flex;
+		flex-direction: column;
+		-webkit-flex-direction: column;
+	}
+	.r-sp .lawn-fertilizer-sec.vid-p h6 {
+		order: 2;
+		margin-top: .6em;
+        margin-bottom: .6em;
+	}
+	.r-sp .lawn-fertilizer-sec.vid-p .social-lnk {
+		order: 3;
+	}
+	.r-sp .lawn-fertilizer-sec.vid-p .vie-del {
+		order: 4;
+	}
+	.r-sp .lawn-fertilizer-sec.vid-p {
+		padding-top: 0;
+	}
+	.r-sp .wdt100 {
+		width: 100%;
+	}
+	.r-sp .pdlr20 {
+		padding: 0 1.25em;
+	}
+	.r-sp .lawn-fertilizer-sec.vid-p .pro-vid-wrap {
+		margin: 0 -8%;
+	}
+	.r-sp .fert-cont-wrap .fert-task .social-lnk {
+		margin: 1.875em 0 0;
+	}
+	.r-sp .fert-cont-wrap .note-imp {
+		margin-bottom: 1em;
+	}
+	/*single_img-page-starts-from-here*/
+	/*Product_Page_Engagement Page-Starts-from-here*/
+	.r-sp .vortx-vid {
+		float: none;
+		width: 100%;
+        padding-bottom: 56.2%;
+	}
+	.r-sp .vortx-detl {
+		float: none;
+		width: 87%;
+		margin: 0 auto;
+	}
+	.border-b-xs {
+		border-bottom: 1px solid #e5e5e5;
+	}
+	.r-sp .pro-pic {
+		width: 100%;
+	}
+	.r-sp .clear-sn {
+		text-align: left;
+		width: 87%;
+		margin: 0 auto;
+	}
+	.r-sp .clear-sn .global-btn {
+		width: 278px;
+	}
+
+	.r-sp .about-pdt, .winter-season {
+		float: none;
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	.r-sp .pdt-wrapper {
+		width: 87%;
+		margin: 0 auto;
+	}
+	.r-sp .mar-r {
+		margin: 0 0 2em 0;
+	}
+	.r-sp .pdt-wrapper {
+		padding: 0;
+	}
+
+	/*=================================product-page-video==============================================*/
+	.r-sp .lawn-fertilizer-sec.head h6 {
+		margin-top: 0.8em;
+		margin-left: 0;
+	}
+	.r-sp .video-text {
+		padding-top: 1.5em;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.r-sp .fert-cont-wrap .btn a {
+		width: auto;
+		display: block;
+	}
+	.r-sp .help-opn.btn {
+		margin-left: -1.5em;
+	}
+	.r-sp .fert-cont-wrap .fert-info, .r-sp .video-text img, .r-sp .trimmer-info p {
+		width: 100%;
+	}
+	.r-sp .video-text.border-b {
+		border: none;
+	}
+	.r-sp .fert-info .pro-hd {
+		margin-bottom: 1em;
+	}
+	.r-sp .lawn-fertilizer-sec .video-text p {
+		font-size: 1em;
+		margin-bottom: 1.7em;
+	}
+	.r-sp .fert-cont-wrap .related-info {
+		padding-top: 3.3em;
+	}
+
+	/*=================================Side-by-Side==============================================*/
+	.r-sp .fert-cont-wrap .trimmer-info {
+		float: none;
+		width: 100%;
+	}
+	.r-sp .trimmer-info .btn {
+		display: block;
+		padding: 1em 4em;
+	}
+
+    .r-sp .fert-cont-wrap .fert-task.trimmer-info p {
+        height:auto;
+    }
+}

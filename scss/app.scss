@@ -1,0 +1,143 @@
+// TroyBilt
+// 1.0 Import settings, mixins & fonts
+// 2.0 site styles
+//     2.1 buttons & links
+// 3.0 pages / sections
+
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import 'normalize';
+@import 'settings';
+
+// Make sure the charset is set appropriately
+@charset 'UTF-8';
+
+// Behold, here are all the Foundation components.
+@import 'foundation/components/grid';
+@import 'foundation/components/accordion';
+@import 'foundation/components/alert-boxes';
+@import 'foundation/components/block-grid';
+@import 'foundation/components/breadcrumbs';
+@import 'foundation/components/button-groups';
+@import 'foundation/components/buttons';
+@import 'foundation/components/clearing';
+@import 'foundation/components/dropdown';
+@import 'foundation/components/dropdown-buttons';
+@import 'foundation/components/flex-video';
+@import 'foundation/components/forms';
+@import 'foundation/components/icon-bar';
+@import 'foundation/components/inline-lists';
+@import 'foundation/components/joyride';
+@import 'foundation/components/keystrokes';
+@import 'foundation/components/labels';
+@import 'foundation/components/magellan';
+@import 'foundation/components/orbit';
+@import 'foundation/components/pagination';
+@import 'foundation/components/panels';
+@import 'foundation/components/pricing-tables';
+@import 'foundation/components/progress-bars';
+@import 'foundation/components/range-slider';
+@import 'foundation/components/reveal';
+@import 'foundation/components/side-nav';
+@import 'foundation/components/split-buttons';
+@import 'foundation/components/sub-nav';
+@import 'foundation/components/switches';
+@import 'foundation/components/tables';
+@import 'foundation/components/tabs';
+@import 'foundation/components/thumbs';
+@import 'foundation/components/tooltips';
+@import 'foundation/components/top-bar';
+@import 'foundation/components/type';
+@import 'foundation/components/offcanvas';
+@import 'foundation/components/visibility';
+
+@import 'slick';
+@import 'mixins';
+@import 'typo';
+
+
+// ----------------------------------
+// 2.1 buttons & links
+// ----------------------------------
+
+
+// ----------------------------------
+// 3.0 pages / sections
+// ----------------------------------
+
+#tb-content {
+    padding-bottom: 90px;
+
+}
+.flex-video{
+    margin-bottom: 0;
+}
+.button {
+    min-width: 132px;
+    padding-left: 1rem ;
+    padding-right: 1rem ;
+    @include box-shadow (1px, 1px, 3px, 2px, $shadow);
+
+    &.info {
+        @include box-shadow (0, 0, 0, 0, $shadow);
+    }
+
+    &.small {
+        font-weight: bold;
+    }
+}
+
+a {
+    padding-bottom: 1px;
+    font-weight: bold;
+    color: $red;
+    *{
+        color: $red;
+    }
+    &.grey{
+        @include linx($link, $link, $link, $link);
+        border-bottom: 1px solid $link;
+    }
+}
+
+@import 'specifications';
+@import 'landing';
+@import 'product-listing';
+@import 'education';
+@import 'calculator';
+@import 'modals';
+@import 'gallery';
+
+.product-detail .product .reviews .stars {
+    margin: -2px 5px 0 0;
+    vertical-align: middle;
+}
+.stars {
+    background: rgba(0, 0, 0, 0) url("../external_assets/stars.png") no-repeat scroll 0 -24px;
+    display: inline-block;
+    height: 24px;
+    vertical-align: middle;
+    width: 74px;
+}
+.stars em {
+    background: rgba(0, 0, 0, 0) url("../external_assets/stars.png") no-repeat scroll 0 0;
+    display: block;
+    height: 24px;
+    overflow: hidden;
+    text-indent: -1000000px;
+    vertical-align: middle;
+    width: 74px;
+}
+.print-reviews {
+    display: none;
+}
+@media print {
+.print-reviews {
+    display: block;
+}
+.stars {
+    display: none;
+}
+}

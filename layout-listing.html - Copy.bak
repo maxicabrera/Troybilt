@@ -1,0 +1,1004 @@
+<!doctype html>
+<html lang="en" class=" en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Troy-Bilt / Built For Life</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-title" content="Troy-Bilt">
+    <link rel="shortcut icon" href="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt.ico" />
+    <link rel="icon" sizes="16x16 32x32" href="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt.ico">
+    <link rel="apple-touch-icon-precomposed" href="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt-152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt-120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt-72.png">
+    <link rel="apple-touch-icon-precomposed" href="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt-57.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="https://mtdp.co//wcpics/Troy/en_US/favicons/troybilt-144.png">
+    <script>
+      document.createElement( "picture" );
+    </script>
+    <script src="https://mtdp.co/wcsstore/shared/javascript/lib/picturefill-3.0.1.min.js" async></script>
+
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://mtdp.co//wcsstore/Troy/responsive-build/global.min.css">
+
+
+
+
+        <link href="bower_components/slick.js/slick/slick-theme.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="css/app.css">
+
+
+  </head>
+  <body>
+    <div class="r-gcontainer">
+
+      <div class="r-gcanvas" id="r-gcanvas">
+        <header class="r-gh mc-items-0" id="r-gh">
+                                                              <div class="header-top">
+                                                                <a href="/troybilt" title="Troy-Bilt: Built For Life" class="brand">Troy-Bilt</a>
+                                                                <div class="cart-search" id="cart-search">
+
+                                                                  <button id="btn-cart" class="btn-cart btn-header " type="button"><span>0</span></button>
+                                                                  <div id="minicart" class="minicart hide">
+                                                      <h2>
+                                                        <span class="cart-hd">Your Cart</span> <span class="item-count"><span class="count">0</span> items</span>
+                                                        <button type="button" class="btn-close-cart" id="btn-close-cart"><img title="" alt="" class="iconic clear-x" data-src="https://mtdp.co/wcpics/Troy/en_US/clear-x.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/clear-search.png" width="11px" height="11px" /></button>
+                                                      </h2>
+
+                                                        <p class="cart-empty">
+                                                          Your cart is currently empty.
+                                                        </p>
+
+                                                    </div>
+
+                                                                  <button id="btn-search" class="btn-search btn-header" type="button">Search</button>
+                                                                  <div class="header-search hide" id="header-search">
+                                                      <form method="get" action="/troybilt/search">
+                                                        <input type="hidden" name="sType" value="SimpleSearch">
+                                                        <input type="hidden" name="resultCatEntryType" value="all">
+                                                        <div class="search-field">
+                                                          <input type="search" name="searchTerm" id="txt-search" placeholder="Search troybilt.com" autocomplete="off">
+                                                        </div>
+                                                        <button type="button" class="btn-clear" id="btn-clear"><img title="" alt="" class="iconic clear-x" data-src="https://mtdp.co/wcpics/Troy/en_US/clear-x.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/clear-search.png" width="11px" height="11px" /></button>
+                                                        <ul id="search-collections" class="search-collections">
+                                                          <li>
+                                                            <a href="/troybilt/search?sType=SimpleSearch&resultCatEntryType=all">Search <strong>All</strong> for "<span class="search-term"></span>" <img title="" alt="" class="iconic thin-caret" data-src="https://mtdp.co/wcpics/Troy/en_US/thin-caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/right-arrow.png" width="7px" height="11px" /></a>
+                                                          </li>
+
+                                                          <li>
+                                                            <a href="/troybilt/search?sType=SimpleSearch&resultCatEntryType=parts">Search <strong>Parts</strong> for "<span class="search-term"></span>" <img title="" alt="" class="iconic thin-caret" data-src="https://mtdp.co/wcpics/Troy/en_US/thin-caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/right-arrow.png" width="7px" height="11px" /></a>
+                                                          </li>
+
+                                                          <li>
+                                                            <a href="/troybilt/search?sType=SimpleSearch&resultCatEntryType=equipment">Search <strong>Equipment</strong> for "<span class="search-term"></span>" <img title="" alt="" class="iconic thin-caret" data-src="https://mtdp.co/wcpics/Troy/en_US/thin-caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/right-arrow.png" width="7px" height="11px" /></a>
+                                                          </li>
+                                                          <li>
+                                                            <a href="/troybilt/search?sType=SimpleSearch&resultCatEntryType=articles">Search <strong>Articles</strong> for "<span class="search-term"></span>" <img title="" alt="" class="iconic thin-caret" data-src="https://mtdp.co/wcpics/Troy/en_US/thin-caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/right-arrow.png" width="7px" height="11px" /></a>
+                                                          </li>
+                                                        </ul>
+                                                      </form>
+                                                    </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="global-nav hide" id="global-nav">
+                                                                <nav class="primary-nav" id="primary-nav">
+                                                                  <ul>
+                                                                    <li>
+                                                                      <a href="javascript:alert('TBD: Go to Lawn Care landing page')" class="primary">Lawn Care</a>
+                                                                      <div class="sub-menu product-category">
+                                                      <div class="sub-menu-wrap">
+                                                        <ul>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-walk-behind-mowers.png">
+                                                            <a href="#">Walk-Behind</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Push</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Self-propelled</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Wide Cut</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-riding-mowers.png">
+                                                            <a href="#">Riding</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Lawn Tractors</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-zero-turn-mowers.png">
+                                                            <a href="#">Zero-turns</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Lap Bar</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Steering Wheel</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-trimmers.png">
+                                                            <a href="#">Trimmers &amp; Edgers</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">2-Cycle trimmers</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">4-Cycle trimmers</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Electric Trimmers</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Trimmer Attachments</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Lawn Edgers</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-flex.png">
+                                                            <a href="#">FLEX&trade;</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Attachments</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Power base</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+
+                                                        </ul>
+                                                      </div>
+                                                    </div>
+
+                                                                    </li>
+                                                                    <li>
+                                                                      <a href="javascript:alert('TBD: Go to Gardening landing page')" class="primary">Gardening</a>
+                                                                      <div class="sub-menu product-category">
+                                                      <div class="sub-menu-wrap">
+                                                        <ul>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-tillers.png">
+                                                            <a href="#">Tillers</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Counter Rotating</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Forward Rotating</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-cultivators.png">
+                                                            <a href="#">Cultivators</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Garden Cultivators</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-hand-tools.png">
+                                                            <a href="#">Hand Tools</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Digging</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Pruning</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Weeding</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+
+                                                        </ul>
+                                                      </div>
+                                                    </div>
+
+                                                                    </li>
+                                                                    <li>
+                                                                      <a href="javascript:alert('TBD: Go to Clean Up landing page')" class="primary">Clean Up</a>
+                                                                      <div class="sub-menu product-category">
+                                                      <div class="sub-menu-wrap">
+                                                        <ul>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-chipper-shredders.png">
+                                                            <a href="#">Chipper Shredders</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Chipper shredder vacs</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Upright chipper shredders</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-leaf-blowers.png">
+                                                            <a href="#">Leaf Blowers</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Handheld</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Wheeled</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-log-splitters.png">
+                                                            <a href="#">Log Splitters</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Log Splitters</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-power.png">
+                                                            <a href="#">Power</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Generators</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Pressure washers</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-flex.png">
+                                                            <a href="#">FLEX&trade;</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Attachments</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Power base</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+
+                                                        </ul>
+                                                      </div>
+                                                    </div>
+
+                                                                    </li>
+                                                                    <li>
+                                                                      <a href="javascript:alert('TBD: Go to Snow landing page')" class="primary">Snow</a>
+                                                                      <div class="sub-menu product-category">
+                                                      <div class="sub-menu-wrap">
+                                                        <ul>
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-snow-throwers.png">
+                                                            <a href="#">Snow Throwers</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Single-stage</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Two-stage</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Three-stage</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+
+                                                          <li>
+                                                            <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/menu-flex.png">
+                                                            <a href="#">FLEX&trade;</a>
+                                                            <ul>
+                                                              <li>
+                                                                <a href="#">Attachments</a>
+                                                              </li>
+                                                              <li>
+                                                                <a href="#">Power base</a>
+                                                              </li>
+                                                            </ul>
+                                                            <a href="#" class="button grey">
+                                                              View All
+                                                              <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                            </a>
+                                                          </li>
+
+                                                        </ul>
+                                                      </div>
+                                                    </div>
+
+                                                                    </li>
+                                                                    <li>
+                                                                      <a href="javascript:alert('TBD: Go to Tips and How-To landing page')" class="primary">Tips &amp; How-To</a>
+                                                                      <div class="sub-menu tips">
+                                                      <div class="sub-menu-wrap">
+                                                        <div class="col">
+                                                          <h3>How-To Library</h3>
+                                                          <ul>
+                                                            <li>
+                                                              <a href="/troybilt/knowledge-center/lawn-care">Lawn Care</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="/troybilt/knowledge-center/gardening">Gardening</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="/troybilt/knowledge-center/clean-up">Clean Up</a>
+                                                            </li>
+
+                                                            <li>
+                                                              <a href="/troybilt/knowledge-center/flex">FLEX&trade;</a>
+                                                            </li>
+
+                                                            <li>
+                                                              <a href="/troybilt/knowledge-center/snow">Snow</a>
+                                                            </li>
+                                                          </ul>
+                                                          <a href="/troybilt/knowledge-center" class="button grey">
+                                                            View the Full Library
+                                                            <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                          </a>
+                                                        </div>
+                                                        <div class="col">
+                                                          <h3>Seasonal Tips</h3>
+                                                          <ul>
+                                                            <li>
+                                                              <a href="#">Spring</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Summer</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Fall</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Winter</a>
+                                                            </li>
+                                                          </ul>
+                                                          <a href="/troybilt/knowledge-center" class="button grey">
+                                                            View the Full Library
+                                                            <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                          </a>
+                                                        </div>
+
+                                                        <div class="col signup">
+                                                          <h3><em>The Dirt</em> eNewsletter</h3>
+                                                          <form method="post" action="/troybilt/dirt/signup" class="dirt-signup-form" data-confirmation-message="confirmation-signup" novalidate>
+                                                            <span class="img-wrap">
+                                                              <img title=""  class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/the-dirt.jpg"  alt="The Dirt Newsletter" />
+                                                            </span>
+                                                            <p>
+                                                              Sign up for our email newsletter and have timely lawn and garden tips sent to you each month.
+                                                            </p>
+                                                            <input type="email" name="email" id="dirt-email" placeholder="Enter Email Address" required data-invalid-message="invalid-email" pattern=".+@.+\..+">
+                                                            <button class="button red large">Subscribe</button>
+                                                          </form>
+                                                        </div>
+
+                                                      </div>
+                                                    </div>
+
+                                                                    </li>
+                                                                    <li>
+                                                                      <a href="/troybilt/parts-support" class="primary">Parts &amp; Support</a>
+                                                                      <div class="sub-menu support">
+                                                      <div class="sub-menu-wrap">
+
+                                                        <div class="col">
+                                                          <a href="https://mtdp.co/troybilt/parts-support" alt="parts support"><h3>Order Replacement Parts</h3></a>
+                                                          <form method="post" action="/" class="replacement-part-form" data-confirmation-message="confirmation-signup" novalidate>
+                                                            <input type="text" name="part_number" id="replacement-part-number" placeholder="Enter the part number or" required>
+                                                            <input type="text" name="model_number" id="replacement-model-number" placeholder="Enter the model number" required>
+                                                            <button class="button red large">Find Parts</button>
+                                                            <a href="#" class="help-link">Need help finding your model number?</a>
+                                                          </form>
+                                                        </div>
+                                                        <div class="col">
+                                                          <h3>Find Parts by Type</h3>
+                                                          <ul>
+                                                            <li>
+                                                              <a href="#">Belts</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Blades</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Cables</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Engine Parts &amp; Filters</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Hardware</a>
+                                                            </li>
+                                                          </ul>
+                                                          <a href="#" class="button grey">
+                                                            View All Top-Selling Parts
+                                                            <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="right" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" />
+                                                          </a>
+                                                        </div>
+
+                                                        <div class="col">
+                                                          <h3>Download a Manual</h3>
+                                                          <form method="post" action="/" class="download-manual-form" data-confirmation-message="confirmation-signup" novalidate>
+                                                            <input type="text" name="model_number" id="manual-model-number" placeholder="Enter the model number" required>
+                                                            <button class="button red large">Find Manual</button>
+                                                            <a href="#" class="help-link">Need help finding your model number?</a>
+                                                          </form>
+                                                        </div>
+                                                        <div class="col">
+                                                          <a href="https://mtdp.co/troybilt/parts-support" alt="parts support"><h3>Owner's Center</h3></a>
+                                                          <ul>
+                                                            <li>
+                                                              <a href="#">My Account</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Register a Product</a>
+                                                            </li>
+                                                            <li>
+                                                              <a href="#">Service Locator</a>
+                                                            </li>
+
+                                                            <li>
+                                                              <a href="#">FAQs</a>
+                                                            </li>
+
+                                                          </ul>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                                    </li>
+                                                                  </ul>
+                                                                </nav>
+                                                                <nav class="secondary-nav anonymous" id="secondary-nav">
+                                                                  <ul>
+                                                                    <li id="user-toggle">
+
+                                                                        <a href="#">Sign In</a>
+
+                                                                    </li>
+                                                                    <li id="register-toggle">
+                                                                      <a href="#" class="toggle">Register a Product <img title="" alt="" class="iconic iconic-size-sm caret" data-direction="bottom" data-src="https://mtdp.co/wcpics/Troy/en_US/caret.svg" data-fallback="https://mtdp.co/wcpics/Troy/en_US/svg-fallback/caret-down-sm.png" width="12px" height="12px" /></a>
+                                                                      <ul class="sub-menu">
+                                                                        <li>
+                                                                          <a href="#">Lawn Care &amp; Gardening</a>
+                                                                        </li>
+                                                                        <li>
+                                                                          <a href="#">Clean Up &amp; Snow</a>
+                                                                        </li>
+                                                                        <li>
+
+                                                                          <a href="#">Generators &amp; Pressure Washers</a>
+                                                                        </li>
+
+                                                                      </ul>
+                                                                    </li>
+                                                                    <li>
+                                                                      <a href="#">Where to Buy</a>
+                                                                    </li>
+                                                                    <li>
+                                                                      <a href="#">Service Locator</a>
+                                                                    </li>
+
+                                                                  </ul>
+                                                                </nav>
+                                                              </div>
+                                                              <button type="button" id="btn-menu" class="btn-menu btn-header">
+                                                                <span class="burger">
+                                                                  <span class="burger-t" id="burger-t"></span>
+                                                                  <span class="burger-m" id="burger-m"></span>
+                                                                  <span class="burger-b" id="burger-b"></span>
+                                                                </span>
+                                                              </button>
+        </header>
+
+    <main id="tb-content" class="tb-page-product-listing">
+
+        <div class="tb-hero">
+            <img title=""  src="images/tb_hero.jpg"  alt="Troy Bilt">
+        </div>
+
+        <div class="row">
+            <div class="small-12 columns">
+                <h1 class="tb-heading">Walk-Behind Mowers by Troy-Bilt<sup><small>&reg;</small></sup></h1>
+
+                <div class="tb-text">
+                    <p>Walk-behind mowers feature our TriAction<sup>&reg;</sup> cutting system – ensuring a clean, even cut every time. Whether you’re mulching or bagging, Troy-Bilt<sup>&reg;</sup> walk-behind mowers will deliver a perfect cut.</p>
+
+                    <p>Troy-Bilt<sup>&reg;</sup> offers a full line of push and self-propelled, walk-behind lawn mowers to maintain lawns of many shapes and sizes. All walk-behind mowers also come with helpful features like the TriAction<sup>&reg;</sup> cutting system. There are several factors that can narrow your search for a new walk-behind lawn mower. Those include whether or not you want to push the mower, your yard size and the type of terrain.</p>
+                    <hr class="hide-for-small-only">
+                </div>
+            </div>
+        </div>
+
+        <div class="row product-results">
+            <div class="small-12 medium-3 columns facets sidebar" id="facets">
+              <form action="#" method="get" id="form-facets" class="custom form-facets">
+                <a href="#">
+                    <img title=""  class="small-hero-mobile" src="images/tb-media-find-your-idea-mower-mobile.jpg"  alt="">
+                </a>
+                <div class="tb-mobile-filters">Filter Results</div>
+                <aside class="tb-filters">
+                    <h3 class="tb-filters__title">Narrow results</h3>
+
+                    <p>
+                        <a href="#" id="btn-clear-facets" class="tb-filters__clear grey">Clear all filters</a>
+
+                    </p>
+
+                    <h4 class="tb-filters__subtitle">Price</h4>
+                    <ul>
+                        <li><input type="checkbox" value="price_USD%3A%28%7B*+200%7D+200%29" name="price" id="price_USD_1" class="facet-checkbox"> &lt; $200 (<strong>3)</strong></li>
+                        <li><input type="checkbox" value="price_USD%3A%28%7B200+1000%7D+200%29" name="price" id="price_USD_2" class="facet-checkbox"> $200 - $1,000 <strong>(13)</strong></li>
+                        <li><input type="checkbox" value="price_USD%3A%28%7B1000+1400%7D+1000%29" name="price" id="price_USD_3" class="facet-checkbox"> $1,000-$1,400 <strong>(1)</strong></li>
+                    </ul>
+
+                    <h4 class="tb-filters__subtitle">Engine</h4>
+                    <ul>
+                        <li><input type="checkbox" name="Engine" id="" class="facet-checkbox"> Single speed <strong>(1)</strong></li>
+                        <li><input type="checkbox" name="Engine" id="" class="facet-checkbox"> Tri-Action Cutting System <strong>(16)</strong></li>
+                    </ul>
+
+                    <h4 class="tb-filters__subtitle">Drive system</h4>
+                    <ul>
+                        <li><input type="checkbox" name="Drive" id="" class="facet-checkbox"> Push <strong>(6)</strong></li>
+                        <li><input type="checkbox" name="Drive" id="" class="facet-checkbox"> Self-Propelled <strong>(12)</strong></li>
+                        <li><input type="checkbox" name="Drive" id="" class="facet-checkbox"> Front-Wheel Self-Propelled <strong>(1)</strong></li>
+                    </ul>
+
+                    <h4 class="tb-filters__subtitle">Feature</h4>
+                    <ul>
+                        <li><input type="checkbox" name="Feature" id="" class="facet-checkbox"> Briggs and Stratton <strong>(1)</strong></li>
+                        <li><input type="checkbox" name="Feature" id="" class="facet-checkbox"> Electric Start <strong>(1)</strong></li>
+                    </ul>
+
+                    <h4 class="tb-filters__subtitle">Price</h4>
+                    <ul>
+                        <li><input type="checkbox" name="Price2" id="" class="facet-checkbox"> &lt; 1/2 Acre</li>
+                        <li><input type="checkbox" name="Price2" id="" class="facet-checkbox"> 1/2 Acre - 1 Acre (Flat)</li>
+                        <li><input type="checkbox" name="Price2" id="" class="facet-checkbox"> 1/2 Acre - 1 Acre (Hilly)</li>
+                    </ul>
+
+                    <!-- banner -->
+                    <div>
+                        <img title=""  src="images/tb_walk-behind-mowers.png"  alt="Troy Bilt">
+                    </div>
+                    <div>
+                        <img title=""  src="images/tb_the-flex-wide-area-mower.png"  alt="Troy Bilt">
+                    </div>
+                </aside>
+              </form>
+            </div>
+            <div class="small-12 medium-9 columns">
+                <div class="small-hero">
+                    <img title=""  src="images/tb-media-find-your-idea-mower.jpg"  alt="Find your ideal mower">
+                    <div class="description">
+                        <h2>
+                            Find your ideal mower.
+                        </h2>
+                        <a href="#">View Product Selector</a>
+                    </div>
+                </div>
+                <div class="views">
+                    <div class="sort-by">
+                        <label>
+                            Sort by:
+                        </label>
+                        <div class="tb-custom-select">
+                            <select name="sort" id="sort-results">
+                                <option value="husker">Price - low to high</option>
+                                <option value="starbuck">Price - High to low</option>
+                                <option value="hotdog">Relevance</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="view-as hide-for-small grid">
+                        <span>
+                            View as:
+                        </span>
+                        <div class="view list" data-view="list">
+                            <span class="tb-gtm-view">
+                                list
+                            </span>
+                            <i class="fa fa-th-list tb-gtm-view"></i>
+                        </div>
+                        <div class="view grid" data-view="grid">
+                            <span class="tb-gtm-view">
+                                grid
+                            </span>
+                            <i class="fa fa-th tb-gtm-view"></i>
+                        </div>
+                    </div>
+                    <button type="button" class="button secondary radius tb-compare btn-compare" id="btn-compare" data-compare-url="/cubcadet/products/compare">Compare</button>
+        <span id="compare-max-error" class="hidden">You may only compare up to 3 items at a time.</span>
+        <span id="compare-min-error" class="hidden">You must select at least two products to compare.</span>
+                </div>
+
+                <section class="tb-products row grid" data-equalizer="prod"  data-equalize-on-stack="true" data-equalizer-mq="small-only">
+                  <div class="product-grid three" id="product-grid" style="min-height:400px;">
+                    <div class="products group">
+
+                    <!-- sample product remove for Troybilt environments -->
+                    <div class="tb-product medium-4 small-6 columns" data-equalizer-watch="prod">
+                        <img title=""  src="images/products/tb_r16.jpg" height="218" width="218"  alt="TB R16 16&quote; Reel Mower">
+                        <div class="tb-product-description-container">
+                            <p>
+                                <span class="tb-product__name">
+                                    <a href="#">TB R16 16" Reel Mower</a>
+                                </span>
+                                <span class="tb-product__description show-for-medium-up">Mulching Reel Push Mower</span>
+                            </p>
+                            <p>
+                                <strong class="tb-product__price">$89.99</strong>
+                                <strong class="tb-product__availability">In Stock</strong>
+                            </p>
+
+                            <div class="tb-product__reviews">
+                                <div class="print-reviews"><br>Rating: 4.8 from 6 reviews</div>
+                                <span class="stars"><em>2_8</em></span>
+                                <p>
+                                    <em>(37 reviews)</em><span> | </span><a href="#" class="grey">Read customer reviews</a>
+                                </p>
+                            </div>
+                                <style>
+                                </style>
+                            <!-- star rating
+                            <div class="tb-product__reviews">
+                                    <div class="tb-product__stars stars">
+                                      <div class="base">
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-grey-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-grey-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-grey-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-grey-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-grey-sm.png" />
+                                      </div>
+                                      <div class="overlay" data-rating="3"  data-size="13">
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-black-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-black-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-black-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-black-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="images/v2/star.svg" data-fallback="images/v2/svg-fallback/star-black-sm.png" />
+                                      </div>
+                                    </div>
+                                <p>
+                                    <em>(37 reviews)</em><span> | </span><a href="#" class="grey">Read customer reviews</a>
+                                </p>
+                            </div>
+                            <!-- /star rating -->
+                        </div>
+                        <div class="tb-product__compare">
+                          <form action="#" class="custom">
+                            <label for="">
+                                <input type="checkbox" name="compare" id="">
+                                Compare
+                            </label>
+                          </form>
+                        </div>
+                    </div>
+                    <!-- end of sample product remove for Troybilt environments  -->
+
+                    <script type="text/template" id="product-grid-template">
+                    <@ _.each(products, function(product) { @>
+                    <!-- product -->
+                    <div class="tb-product medium-4 small-6 columns" data-equalizer-watch="prod">
+                        <img title=""  src="<@=product.thumbnail @>" height="218" width="218"  alt="<@=product.name @>">
+                        <div class="tb-product-description-container">
+                            <p>
+                                <span class="tb-product__name">
+                                    <a href="/cubcadet/products/detail?productId=<@=product.uniqueID @>" title="<@=product.name @>"><@=product.name @></a>
+                                </span>
+                                <span class="tb-product__description show-for-medium-up"><@=product.shortDescription @></span>
+                            </p>
+                            <p>
+                                <strong class="tb-product__price">$<@= getDollars(product.price) @>.<@= getCents(product.price) @></strong>
+                                <strong class="tb-product__availability">In Stock</strong>
+                            </p>
+
+                            <!-- star rating -->
+                            <div class="tb-product__reviews">
+                                    <div class="tb-product__stars stars">
+                                      <div class="base">
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-grey-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-grey-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-grey-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-grey-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-grey-sm.png" />
+                                      </div>
+                                      <div class="overlay" data-rating="<@= getRating(product.attributes) @>"  data-size="13">
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-black-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-black-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-black-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-black-sm.png" />
+                                        <img title="" alt="" class="iconic" data-src="/images/v2/star.svg" data-fallback="/images/v2/svg-fallback/star-black-sm.png" />
+                                      </div>
+                                    </div>
+                                <p>
+                                    <em>(<@= getNumberReviews(product.attributes) @> reviews)</em><span> | </span><a href="#" class="grey">Read customer reviews</a>
+                                </p>
+                            </div>
+                            <!-- /star rating -->
+                        </div>
+                        <div class="tb-product__compare">
+                          <form action="#" class="custom">
+                            <label for="compare-<@=product.uniqueID @>">
+                                <input type="checkbox" name="compare" id="compare-<@=product.uniqueID @>" value="<@=product.uniqueID @>" class="checkbox-compare">
+                                Compare
+                            </label>
+                          </form>
+                        </div>
+                    </div>
+                    <!-- end product -->
+                    <@ }); @>
+                    </script>
+
+
+
+                  </div>
+                  <div class="product-paging group" id="product-paging">
+                    <div class="pages col">
+                      <!--<a href="/cubcadet/category/lawn-and-garden-tractors/xt1/all?pageNumber=1&amp;pageSize=9" title="1" class="current" data-page-num="1">1</a>
+                      <a href="/cubcadet/category/lawn-and-garden-tractors/xt1/all?pageNumber=2&amp;pageSize=9" title="2" data-page-num="2">2</a>
+                      <a href="/cubcadet/category/lawn-and-garden-tractors/xt1/all?pageNumber=3&amp;pageSize=9" title="3" data-page-num="3">3</a>
+                      <a href="/cubcadet/category/lawn-and-garden-tractors/xt1/all?pageNumber=4&amp;pageSize=9" title="4" data-page-num="4">4</a>
+                    </div>
+                    <div class="prev-next col">
+                      <a href="/cubcadet/category/lawn-and-garden-tractors/xt1/all?pageNumber=1&amp;pageSize=9" title="Prev" class="prev hide">Prev</a>
+                      <a href="/cubcadet/category/lawn-and-garden-tractors/xt1/all?pageNumber=2&amp;pageSize=9" title="Next" class="next">Next</a>
+                    </div>-->
+                  </div>
+                </div>
+                </section>
+            </div>
+        </div>
+    </main>
+        <footer class="r-gf" id="r-gf">
+          <div class="product-categories">
+            <h1>Troy-Bilt<sup>&reg;</sup> Products</h1>
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="img-wrap">
+                    <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/lawn-care.png"/>
+                  </span>
+                  <h4>Lawn Care</h4>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="img-wrap">
+                    <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/gardening.png"/>
+                  </span>
+                  <h4>Gardening</h4>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="img-wrap">
+                    <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/cleanup.png"/>
+                  </span>
+                  <h4>Clean Up</h4>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="img-wrap">
+                    <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/snow.png"/>
+                  </span>
+                  <h4>Snow</h4>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span class="img-wrap">
+                    <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/flex.png"/>
+                  </span>
+                  <h4>FLEX&trade;</h4>
+                </a>
+              </li>
+
+              <li>
+                <a href="/troybilt/parts-support">
+                  <span class="img-wrap">
+                    <img title="" alt="" class="lazyload" data-src="https://mtdp.co/wcpics/Troy/en_US/parts.png"/>
+                  </span>
+                  <h4>Parts &amp; Support</h4>
+                </a>
+              </li>
+            </ul>
+          </div><!-- .product-categories -->
+          <div class="connect-signup">
+            <div class="social">
+              <h5>Connect with Us</h5>
+              <ul>
+
+                <li><a href="https://www.facebook.com/troybilt" title="Troy-Bilt on Facebook" class="facebook">Facebook</a></li>
+                <li><a href="http://www.youtube.com/user/troybiltllc" title="Troy-Bilt on YouTube" class="youtube">YouTube</a></li>
+                <li><a href="http://www.twitter.com/TroyBilt" title="Troy-Bilt on Twitter" class="twitter">Twitter</a></li>
+                <li><a href="http://instagram.com/troybilt" title="Troy-Bilt on Instagram" class="instagram">Instagram</a></li>
+                <li><a href="http://www.pinterest.com/troybilt/" title="Troy-Bilt on Pinterest" class="pinterest">Pinterest</a></li>
+
+              </ul>
+            </div><!-- .social -->
+            <div class="email-signup">
+              <h5>Email Signup</h5>
+              <form method="post" action="https://mtdp.co//troybilt/signup" class="email-list-form" data-confirmation-message="confirmation-signup" novalidate>
+                <input type="email" name="email" id="email-list" placeholder="Enter your email address" required data-invalid-message="invalid-email" data-request-error="We were unable to process your request. Please try again." pattern=".+@.+\..+">
+                <button type="submit" class="button grey rnd">Continue</button>
+                <span class="confirmation-message hide" id="confirmation-signup">Thanks for signing up.</span>
+                <span class="invalid-message hide" id="invalid-email">Please enter a valid email address.</span>
+              </form>
+            </div><!-- .email-signup -->
+          </div><!-- .connect-signup -->
+          <div class="sub-footer">
+  <nav class="footer-menu">
+    <ul>
+      <li>
+        <a href="#">View Mobile Site</a>
+      </li>
+      <li>
+        <a href="#">
+          <img title=""  class="lazyload flag" data-src="https://mtdp.co/wcpics/Troy/en_US/american-flag.png"  alt="American flag">
+          Site/Languages
+        </a>
+      </li>
+      <li>
+        <a href="#">About Troy-Bilt</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+      <li>
+        <a href="#">Media Informaiton</a>
+      </li>
+
+      <li>
+        <a href="#">Order Tracking</a>
+      </li>
+      <li>
+        <a href="#">Recalls</a>
+      </li>
+      <li>
+        <a href="#">Financing</a>
+      </li>
+
+      <li>
+        <a href="#">Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+  <p class="copyright">
+    &copy; 2015 Troy-Bilt LLC
+  </p>
+</div><!-- .sub-footer -->
+        </footer>
+      </div>
+    </div>
+
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/fastclick/lib/fastclick.js"></script>
+        <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
+        <script src="bower_components/slick.js/slick/slick.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:js js/vendor/foundation.min.js -->
+        <script src="bower_components/foundation/js/foundation/foundation.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.joyride.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.slider.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+
+
+        <script src="https://mtdp.co/wcsstore/Troy/responsive-build/global.min.js"></script>
+        <!--
+        <script src="https://mtdp.co/wcsstore/Troy/javascript/r/appcache-nanny.js" async></script>
+        -->
+
+        <script src="js/app.js"></script>
+
+
+
+        <script src="js/product-ratings.js"></script>
+        <script src="js/product-results.js"></script>
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PQG24T"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+        {'gtm.start': new Date().getTime(),event:'gtm.js'}
+
+        );var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PQG24T');</script>
+        <!-- End Google Tag Manager -->
+  </body>
+</html>

@@ -1,0 +1,77 @@
+.faqForm {
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.KnowledgeSyndication .rn_Content .rn_List li.rn_Item {
+	padding-bottom: 10px;
+}
+
+.KnowledgeSyndication .rn_Content .rn_List li.rn_Item span.rn_Title a {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+}
+	
+.KnowledgeSyndication .rn_Content .rn_List li.rn_Item span.rn_Description {
+	font-size: 1.25em;
+	font-weight: normal;
+	text-decoration: none;
+	
+}
+	
+.r-htb .group .img-wrap {
+	padding-right: 5px;
+}
+	
+#faqCategoryName{
+	font-size: 2.0rem;
+	line-height: 2.5rem;
+}
+
+#faqSideNav {
+	border-left: 3px solid #f7f7f7; 
+	padding-left: 1rem; 
+	padding-bottom: 0; 
+	float: right; 
+	min-height: 500px
+}
+
+
+.faqSearchField {
+	width: 75%;
+}
+
+.faqSearchButton:hover {
+
+    background-color: #cc3434 ;
+
+}
+
+.r-htc .results  {
+	overflow: visible;
+}
+
+
+#rn_Queryskw_0 {
+	width: 75%;
+}
+
+.KnowledgeSyndication .rn_SearchArea .rn_SearchButton .rn_ButtonInput:hover {
+ background-color: #cc3434;
+}
+
+.rn_SearchArea {
+	margin-bottom: 15px;
+}
+
+#rn_Navigationskw_0 a{
+	font-size: 1.25em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#faqSideNav {
+border-left: 3px solid #f7f7f7; padding-left: 1rem; padding-bottom: 0; float: right; min-height: 900px
+}

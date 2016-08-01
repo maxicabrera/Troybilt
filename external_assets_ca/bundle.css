@@ -1,0 +1,328 @@
+/*********************
+	SHOPPING CART
+*********************/
+
+
+/*.carttable { background: url("http://troybilt.com/wcpics/TroyBiltUS/en_US/images/shoptotals_bg1.gif") repeat-y scroll right transparent;}*/
+#disclaimer2 {
+    font-size: 75%;
+	margin-right: 20px;
+	display: block;
+}
+
+#listjacket td.total-column {padding:0; margin:0;}
+
+table.total-table {padding:0; margin:0; border-collapse:collapse;}
+
+#listjacket td.shoptotalvalues {
+    background: none repeat scroll 0 0 transparent;
+}
+
+#listjacket td.shoptotal {background: none repeat scroll 0 0 transparent;
+   
+    height: 22px;
+    line-height: 13px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 5px;}
+
+table.bundle-deal {padding:0; margin:0; border-collapse:collapse;  margin-bottom:15px; width: 95%; }
+
+
+table.bundle-deal .bundle-ad {
+    background-image: url("http://troybilt.com/wcpics/TroyBiltUS/en_US/images/red-tag.gif");
+    background-position: 19px 8px;
+    background-repeat: no-repeat;
+    min-height: 22px;
+    padding: 7px 0 7px 50px;
+}
+
+.bundle-ad-wrap {background:#b0332d; width:100%; height:44px; color:#fff; margin-left: 20px; }
+
+.column {float:left;}
+#listjacket a {color:#de253b;}
+#listjacket a img {border:none;}
+#listjacket a:hover {color:#de253b; text-decoration:none;}
+.bundle-ad a { color:#fff; text-decoration:none; font-size: 1.09090909em; }
+.bundle-ad a:hover {text-decoration:underline;}
+.bundle-ad .column {
+    width: 70%;
+}
+.bundle-ad h3 {
+    letter-spacing: 0.5px;
+    margin: 0 0 0;
+    padding: 0;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+    text-transform: uppercase;
+}
+.bundle-ad h4 {
+    font-weight: normal;
+	font-size:11px;
+	color:#fff;
+    margin: 0;
+    padding: 0;
+}
+.bundle-ad .bundle-more {
+    margin-left: 20px;
+    width: 20%;
+	float: right;
+}
+.bundle-ad .bundle-more a, .bundle-ad .bundle-more a:hover, .bundle-ad .bundle-more a:visited {
+    background: url("http://troybilt.com/wcpics/TroyBiltUS/en_US/images/red-arrow.gif") no-repeat scroll right 9px transparent;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+	font-weight:bold;
+    text-transform: uppercase;
+    width: 106px;
+	color:#fff;
+	text-decoration:none;
+}
+#listjacket .bundle-ad .bundle-more a:hover { text-decoration:underline; }
+
+#listjacket td.bundle-item { border-top:2px solid #ccc; }
+#listjacket tr.top td {
+    height: 27px;
+    line-height: 13px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+/* Shopping Cart page bundles */
+
+tr.bundle-item { width:650px; }
+#listjacket td.listitem.tag { padding:15px 0 0 20px; }
+.product_cell {
+    width: 260px;
+}
+tr.bundle-item td {
+    padding-bottom: 5px;
+}
+td.product_cell div.product_info {
+    margin-left: 120px;
+    width: 140px;
+}
+
+#listjacket  td.product_cell div.product_info  a {
+color:#de253b;}
+
+td.quantity_cell, td.total_cell, td.remove_cell {
+    padding-top: 35px;
+}
+.quantity_cell {
+    width: 115px;
+}
+.quantity_cell label {
+    font-weight: bold;
+    margin-top: 4px;
+    padding-right: 5px;
+}
+.quantity_cell label, .quantity_cell .cBoxFloatWrap {
+    float: left;
+}
+.total_cell {
+    text-align: right;
+    width: 75px;
+}
+td.product_cell img {
+    float: left;
+}
+
+.product_info { padding:0 15px 0 0; }
+.product_info p { margin-top:20px; }
+.product_info span.lowered { text-decoration: line-through; color:#de253b; font-size:11px; font-weight:normal; }
+.product_info span { font-weight:bold; font-size:12px; }
+
+/* bundle product images */
+ul.bundle-products { padding:0; margin:0 0 30px 0; }
+ul.bundle-products li { list-style-type:none; float:left; width:100px; margin:0 15px 0 0; padding:0; }
+ul.bundle-products li span { text-align:center; color:#888; font-size:11px; width:100px; display:block; }
+
+ul.bundle-products li img {
+    border: 1px solid #CCCCCC;
+    display: inline;
+    float: none;
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+
+
+
+/*********************
+	PRODUCT DETAIL
+*********************/
+
+/* rest the current style */
+#detailjacket #left #dropdowns .dropdownbody {
+    clear: both;
+    float: left;
+    font-size: 11px;
+    left: 0px;
+    margin-bottom: 15px;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    width: 649px;
+}
+
+#detailjacket #left #bundles {
+    clear: both;
+    float: left;
+    font-size: 11px;
+    left: 0px;
+    margin-bottom: 15px;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    width: 650px;
+}
+
+.product-bundle {background:#f7f7f7; border:2px solid #e5e5e5; margin-bottom: 13px;}
+.product-bundle h2, #jqModal .product-bundle h2 {
+    background: url(/wcpics/TroyBiltUS/en_US/images/sm-tag.png) no-repeat scroll 12px 5px #e5e5e5;
+    color: #b0332d;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+    margin: 5px 0 10px;
+    padding: 7px 20px 8px 42px;
+    text-transform: uppercase;
+    word-spacing: 0.05em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.bundle-desc, #jqModal .bundle-desc {
+    padding-left: 14px;
+    width: 490px;
+}
+.bundle-desc p, #jqModal .bundle-desc p {
+    color: #333333;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.bundle-desc ul, #jqModal .bundle-desc ul {
+    width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.bundle-desc li, #jqModal .bundle-desc li {
+    background: url("http://troybilt.com/wcpics/TroyBiltUS/en_US/images/bg-bundle-plus.png") no-repeat scroll right 45px transparent;
+    float: left;
+    list-style-type: none;
+    margin: 0 4px 10px 0;
+    padding: 0 22px 0 0;
+    text-align: center;
+    width: 20%;
+}
+.bundle-desc li.last, #jqModal .bundle-desc li.last {
+    background: none repeat scroll 0 0 transparent;
+	padding:0;
+}
+.bundle-price, #jqModal .bundle-price {
+    width: 140px;
+}
+.bundle-price p.bundle-cost, #jqModal .bundle-price p.bundle-cost {
+    padding: 0 16px 8px;
+}
+.bundle-price .textfieldType { background: #fff; color: #333; text-align: center; }
+.bundle-cost del, #jqModal .bundle-cost del {
+    color: #c73334;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 2px;
+    text-decoration: line-through;
+	margin-bottom: 3px;
+	display: block;
+}
+.bundle-cost span, #jqModal .bundle-cost span {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+	display: block;
+}
+.bundle-price .line {
+	margin:12px 0 15px 17px;
+}
+.bundle-price p.bundle-info, #jqModal .bundle-price p.bundle-info {
+    background: url("http://troybilt.com/wcpics/TroyBiltUS/en_US/images/bg-bundle-info.png") no-repeat scroll left 4px transparent;
+    clear: both;
+    color: #333333;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-left: 17px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.bundle-desc img, #jqModal .bundle-desc img {
+    border: 1px solid #CCCCCC;
+    display: inline;
+    float: none;
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+ul.group li span {color:#635f5f; width:100px; display:block;}
+ul.group li span.reg-price {font-weight:bold;}
+
+a.add_to_cart span, #jqModal a.add_to_cart span {
+    display: block;
+    height: 20px;
+    text-indent: -9999px;
+    width: 109px;
+}
+
+a.add_to_cart, #jqModal a.add_to_cart {
+    background-image:url(http://www.troybilt.com/wcpics/TroyBiltUS/en_US/images/facet/list_addtocart.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-top: 10px;
+    text-align: left;
+    text-indent: -9999px;
+    width: 107px;
+	cursor: pointer;
+}
+#detailjacket #left div.bundle-desc p {padding:0 30px 0 0;}
+
+/*********************
+	BUNDLE OVERLAY
+*********************/
+
+.product-bundle.modal-window {width:646px; text-align:left; height:260px; margin:0;}
+#sb-player {overflow:hidden;}
+
+/*********************
+	ORDER HISTORY DETAIL
+*********************/
+
+.carttable.order-history {background:none;}
+#listjacket  .carttable tr.tr-pad td {padding:15px 0 0 0;}
+
+
+.carttable.order-history a.prod_img img {padding:10px 0 0 0; border:0; float:left;}
+
+#primaryContent ul.history-products {padding:0; margin:18px 0 0 0; width:250px;}
+#primaryContent ul.history-products li {list-style-type:none; float:left; width:100px; margin:0 25px 8px 0; padding:0;}
+#primaryContent ul.history-products li span {text-align:center; color:#888; font-size:11px; width:100px; display:block;}
+
+#primaryContent ul.history-products li img {
+    border: 1px solid #CCCCCC;
+    display: inline;
+    float: none;
+    margin: 0 0 5px;
+    text-align: center;
+}
+span.avail {font-weight:bold; color:#635f5f;}
+.med-tag {width:48px; height:48px; background:url("http://troybilt.com/wcpics/TroyBiltUS/en_US/images/med-tag.png") no-repeat;}
+.product_info_history {padding:0; width: 165px; float:right;}

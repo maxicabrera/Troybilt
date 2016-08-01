@@ -1,0 +1,508 @@
+.r-sp .content-top {
+	 padding: 0.8em 1.1em;
+}
+.r-sp .content-top a {
+	font-size: 0.8em;
+	color: #000000;
+	vertical-align: middle;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.r-sp .content-top a:hover {
+	color: #cc0000;
+}
+.r-sp .content-top span {
+	vertical-align: middle;
+}
+.r-sp .r-banner .banner-img {
+	position: relative;
+}
+.r-sp .r-banner .banner-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.r-sp .r-banner .banner-content {
+	position: absolute;
+	top:0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.r-sp .r-banner .banner_text {
+	width: 301px;
+	float: right;
+	margin: 7em 5em 0 0;
+}
+.r-sp .r-banner .banner-content strong,
+.r-sp .r-banner .banner-content span {
+	display: block;
+	color: #ffffff;
+	margin-bottom: 0.3em;
+}
+.r-sp .r-banner .banner-content strong {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 32px;
+}
+.r-sp .r-banner .banner-content span {
+	font-size: 1em;
+	line-height: 22px;
+}
+.r-sp  .landing-products-wrap {
+	padding: 1em 0;
+}
+.r-sp .r-products {
+	padding: 0 1.5em;
+}
+.r-products hr{
+    border:0 none transparent;
+    background: transparent;
+}
+.r-sp .r-products .product-img, .r-sp .r-products .prdt-img {
+	float: left;
+	width: 33%;
+}
+.r-sp .r-products .product-details, .r-sp .r-products .prdt-dtls  {
+	float: right;
+	width: 66%;
+	padding-top: 2.7em;
+	padding-bottom: 5.31em;
+}
+
+/*knowledge_center_page starts from here*/
+.r-sp .lawn-fertilizer-sec {
+	padding: 1.25em 1.1em 0.6em;
+}
+.r-sp .lawn-fertilizer-sec.vid-p {
+    overflow-x:hidden;
+}
+.r-sp .lawn-fertilizer-sec h6{
+	margin-bottom: 0.8em;
+}
+.r-sp .lawn-fertilizer-sec .social-lnk {
+    margin-bottom: 1.1em;
+}
+.r-sp .lawn-fertilizer-sec p {
+	margin-bottom: 0.6em;
+}
+.r-sp .fert-cont-wrap {
+
+}
+.r-sp .fert-cont-wrap .fert-task {
+    padding: 1.7em 0 0.5em 0.8em;
+}
+.r-sp .fert-cont-wrap .fert-content {
+	float: left;
+	width: 66%;
+
+}
+.r-sp .fert-cont-wrap .related-content {
+	float: right;
+	width: 23%;
+}
+.r-sp .fert-cont-wrap .fert-details img {
+	float: right;
+	display: block;
+	margin: 0.5em 0.4em 1em 3.3em;
+
+}
+.r-sp .fert-cont-wrap .fert-task p {
+	font-size: 0.8125em;
+	line-height: 21px;
+}
+.r-sp .fert-cont-wrap .fert-task.trimmer-info p  {
+    height:105px;
+}
+.r-sp .fert-cont-wrap .fert-task .social-lnk {
+	 margin: 1.875em 0 3.5em;
+}
+.r-sp .social-lnk ul li {
+	display: inline-block;
+}
+.r-sp .fert-cont-wrap .related-content .related-articals {
+	 padding: 1.7em 1.5em 0 0;
+}
+.r-sp .related-articals .artical-info li a {
+	font-size: 0.74em;
+	color: #7a7a7a;
+	text-decoration: underline;
+	margin-bottom: 1.68em;
+	display: block;
+	line-height: 16px;
+	font-weight: bold;
+}
+.r-sp .fert-cont-wrap .related-content .related-videos {
+	 padding: 1.7em 0 0 0;
+}
+.r-sp .related-videos .videos {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding-top: 17px;
+    padding-bottom: 50%;
+	margin-bottom: .8em;
+}
+.r-sp .related-videos .videos iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.r-sp .related-videos a {
+	font-size: 0.875em;
+	color: #000000;
+	display: block;
+	line-height: 22px;
+	margin-bottom: .8em;
+}
+
+.related-products-wrap {
+	padding: 1.8em 0;
+}
+.r-sp .related-products-wrap .related-products {
+	width: 27%;
+	float: left;
+	margin-right: 2em;
+}
+.r-sp .related-products-wrap .related-products a{
+	font-size: 1em;
+	color: #cc0000;
+	display: block;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+.r-sp .related-products-wrap .related-products p{
+	font-size: 0.875em;
+	color: #000000;
+	margin-bottom: 12px;
+}
+.r-sp .related-products-wrap .related-products span{
+	font-size: 0.875em;
+	color: #000000;
+	display: block;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+.r-sp .related-products-wrap .related-products a.sm-btn{
+	color: #ffffff;
+}
+
+/*Video-Page-Starts-from-here*/
+
+.r-sp .lawn-fertilizer-sec .pro-vid-wrap {
+    background: #000 none repeat scroll 0 0;
+    margin: 0 -100% 30px;
+}
+.r-sp .lawn-fertilizer-sec .pro-vid-wrap.pro-vid-white{
+    background: #fff none repeat scroll 0 0;
+}
+.r-sp .lawn-fertilizer-sec .pro-vid {
+    /*width:77%;
+    margin: 0 auto 2em;
+    height300%;*/
+    float: none;
+    clear: both;
+    width: 720px;
+    margin: 0 auto 0;
+    position: relative;
+    height: 0;
+    padding-top: 5px;
+    padding-bottom: 14.25%;
+}
+.r-sp .lawn-fertilizer-sec .pro-vid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.r-sp .lawn-fertilizer-sec .vie-del strong {
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000000;
+    text-align: right;
+}
+.r-sp .lawn-fertilizer-sec .vie-del p {
+	  display: inline-block;
+      width: 76%;
+}
+.r-sp .fert-cont-wrap .para-detl {
+
+	font-size: 0.8125em;
+	color: #000000;
+	font-weight: bold;
+	display: block;
+	position: relative;
+	 margin-bottom: 0.5em;
+}
+.r-sp .fert-cont-wrap .para-detl:before {
+	background: url(../images/red-arrow.png) no-repeat center left;
+	height: 19px;
+	width: 15px;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -24px;
+}
+.r-sp .fert-cont-wrap .cont-info {
+	position: relative;
+}
+.r-sp .fert-cont-wrap .cont-info strong{
+    font-weight: bold;
+}
+.r-sp .fert-cont-wrap .cont-info:before {
+	background: url(../images/red-arrow.png) no-repeat center left;
+	height: 19px;
+	width: 15px;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.r-sp .fert-cont-wrap .para-detl {
+
+	font-size: 0.8125em;
+	color: #000000;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 0.5em;
+}
+.r-sp .fert-cont-wrap .cont-info {
+	padding-left: 1.5em;
+}
+.r-sp .fert-cont-wrap .note-imp {
+	margin-bottom: 3em;
+}
+.r-sp .fert-cont-wrap .help-opn strong{
+	font-weight: bold;
+	font-size: 1em;
+	color: #000000;
+	display: inline-block;
+	margin-right: 1.5em;
+}
+.r-sp .fert-cont-wrap .help-opn a{
+	font-weight: bold;
+	font-size: 0.75em;
+	color: #000000;
+	display: inline-block;
+	margin-right: 0.55em;
+	background: #e5e5e5;
+	padding: 0.75em 0;
+	width: 60px;
+	text-align: center;
+	border-radius: 6px;
+}
+.r-sp .fert-cont-wrap {
+
+}
+/*Single_img-Page-Starts-from-here*/
+
+.r-sp .padd-b30 {
+	padding-bottom: 1.8em;
+}
+
+.r-sp .padd-t28 {
+	padding-top: 1.5em;
+}
+
+.r-sp .gr-img img {
+	width: 100%;
+}
+/*Product_Page_Engagement Page-Starts-from-here*/
+.r-sp .pro-pic-wrap{
+    background:#000000;
+}
+.r-sp .pro-pic {
+	width: 98%;
+    margin-bottom: 32px;
+}
+.r-sp .pro-pic img {
+	width: 100%;
+	display: block;
+}
+.r-sp .clear-sn {
+	text-align: center;
+	padding: 0 0 1.7em 0;
+}
+.r-sp .clear-sn .global-btn {
+	display: inline-block;
+	width: 196px;
+}
+.r-sp .vortx-vid {
+	float: left;
+	width: 64%;
+    height: 0;
+    padding-bottom: 36%;
+    position: relative;
+}
+.r-sp .vortx-vid iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+.r-sp .vortx-detl {
+	float: right;
+	width: 33%;
+}
+.r-sp .vortex-wrap {
+	padding: 1.75em 0;
+}
+.r-sp .about-pdt, .winter-season {
+	float: left;
+	width: 31%;
+}
+.r-sp .pdt-img {
+	margin-bottom: 2em;
+}
+.r-sp .mar-r {
+	margin-right: 1.875em;
+}
+.r-sp .about-pdt-dtl p,
+.r-sp .sesn-detl p {
+	font-size: 0.8125em;
+	 min-height: 95px;
+}
+.about-pdt-dtl .global-btn{
+    max-width: 100%;
+}
+.r-sp .winter-tnings {
+	margin-top: 2em;
+	overflow: hidden;
+}
+.r-sp .winter-tnings li {
+	float: left;
+	width: 50%;
+}
+.r-sp .winter-tnings li a {
+	display: block;
+	text-align: center;
+	padding: 1.0625em 0;
+}
+.r-sp .winter-tnings a:hover .icon-spring {
+	background-position: -50px 0;
+}
+.r-sp .winter-tnings a:hover .icon-summer {
+	background-position: -50px -50px;
+}
+.r-sp .winter-tnings a:hover .icon-fall {
+	background-position: -50px -100px;
+}
+.r-sp .winter-tnings a:hover .icon-snow {
+	background-position: -50px -150px;
+}
+.border-r {
+	border-right: 1px solid #e5e5e5;
+}
+.r-sp .winter-tnings.margint-n {
+	margin-top: 0;
+}
+.r-sp .sesn-detl {
+	padding-top: 1em;
+}
+.r-sp  .pdt-wrapper {
+	padding: 4em 0;
+}
+.r-sp .pdt-img img{
+	width: 100%;
+}
+/*=================================product-page-video==============================================*/
+.r-sp .video-text {
+	padding: 0 0.8em 0.9em;
+}
+.r-sp .lawn-fertilizer-sec .video-text p {
+	width: auto;
+}
+.r-sp .lawn-fertilizer-sec .video-text p sup {
+	font-size: 70%;
+	line-height: 0;
+	position: relative;
+	top: -0.75em;
+	vertical-align: baseline;
+}
+.r-sp .head h6 {
+	margin-left: 0.5em;
+}
+.r-sp .fert-cont-wrap .btn a {
+	width: auto;
+	padding: 0.75em 1.7em;
+}
+.r-sp .content-info {
+	margin-bottom: 1.6em;
+}
+.r-sp .content-info p {
+	margin-bottom: 1em;
+	width: 98%;
+}
+.r-sp .no-margin {
+	margin-bottom: 0;
+}
+.r-sp .fert-cont-wrap .related-info {
+	padding: 1.7em 0 0 0;
+	width: 26%;
+}
+
+/*=================================Side-By-Side==============================================*/
+
+.r-sp .sub-head {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #000000;
+	line-height: 1.2em;
+	display: block;
+	margin-bottom: 0.6em;
+}
+.r-sp .sub-head sup,
+.r-sp .description sup {
+	font-size: 50%;
+	line-height: 0;
+	position: relative;
+	top: -0.75em;
+	vertical-align: baseline;
+}
+.r-sp .description sup{
+	font-size: 70%;
+}
+.r-sp .fert-cont-wrap .trimmer-img img {
+	float: none;
+	margin: 0;
+}
+.r-sp .fert-cont-wrap .trimmer-content {
+	float: none;
+	width: 100%;
+	padding-bottom: 2em;
+}
+.r-sp .fert-cont-wrap .trimmer-info {
+	float: left;
+	width: 50%;
+	padding: 0.3em 1.1em 0.5em;
+}
+.r-sp .trimmer-info img {
+	width: 100%;
+}
+.r-sp .trimmer-content .dtl-head {
+	margin-top: 1.8em;
+	margin-bottom: 0.5em;
+}
+.r-sp .trimmer-info p {
+	width: 78%;
+	margin-bottom: 2em;
+}
+.r-sp .trimmer-info .btn {
+	padding: 1em 1.4em;
+	width: auto;
+	display: inline-block;
+	font-size: 0.875em;
+}
+
+
